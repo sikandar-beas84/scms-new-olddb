@@ -1,0 +1,28 @@
+[23-Dec-2024 00:59:05 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Constraint\Operator" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Operator/UnaryOperator.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Operator/UnaryOperator.php on line 17
+[23-Dec-2024 00:59:10 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Constraint\Constraint" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Operator/Operator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Operator/Operator.php on line 15
+[23-Dec-2024 00:59:14 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Constraint\BinaryOperator" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Operator/LogicalXor.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Operator/LogicalXor.php on line 18
+[23-Dec-2024 00:59:18 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Constraint\BinaryOperator" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Operator/LogicalOr.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Operator/LogicalOr.php on line 15
+[23-Dec-2024 00:59:22 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Constraint\UnaryOperator" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Operator/LogicalNot.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Operator/LogicalNot.php on line 21
+[23-Dec-2024 00:59:26 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Constraint\BinaryOperator" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Operator/LogicalAnd.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Operator/LogicalAnd.php on line 15
+[23-Dec-2024 00:59:30 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Constraint\Operator" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Operator/BinaryOperator.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Operator/BinaryOperator.php on line 19

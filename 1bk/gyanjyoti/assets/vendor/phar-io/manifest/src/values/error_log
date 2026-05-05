@@ -1,0 +1,23 @@
+[23-Dec-2024 00:14:38 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\Type" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/values/Library.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/values/Library.php on line 12
+[23-Dec-2024 00:14:42 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\Type" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/values/Extension.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/values/Extension.php on line 15
+[23-Dec-2024 00:14:51 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\Type" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/values/Application.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/values/Application.php on line 12
+[23-Dec-2024 00:19:18 UTC] PHP Fatal error:  Could not check compatibility between PharIo\Manifest\RequirementCollection::getIterator(): PharIo\Manifest\RequirementCollectionIterator and IteratorAggregate::getIterator(): Traversable, because class PharIo\Manifest\RequirementCollectionIterator is not available in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/values/RequirementCollection.php on line 31
+[23-Dec-2024 00:19:22 UTC] PHP Fatal error:  Uncaught Error: Interface "PharIo\Manifest\Requirement" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/values/PhpVersionRequirement.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/values/PhpVersionRequirement.php on line 14
+[23-Dec-2024 00:19:26 UTC] PHP Fatal error:  Uncaught Error: Interface "PharIo\Manifest\Requirement" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/values/PhpExtensionRequirement.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/values/PhpExtensionRequirement.php on line 12
+[23-Dec-2024 00:19:38 UTC] PHP Fatal error:  Could not check compatibility between PharIo\Manifest\BundledComponentCollection::getIterator(): PharIo\Manifest\BundledComponentCollectionIterator and IteratorAggregate::getIterator(): Traversable, because class PharIo\Manifest\BundledComponentCollectionIterator is not available in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/values/BundledComponentCollection.php on line 31
+[23-Dec-2024 00:19:50 UTC] PHP Fatal error:  Could not check compatibility between PharIo\Manifest\AuthorCollection::getIterator(): PharIo\Manifest\AuthorCollectionIterator and IteratorAggregate::getIterator(): Traversable, because class PharIo\Manifest\AuthorCollectionIterator is not available in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/values/AuthorCollection.php on line 31

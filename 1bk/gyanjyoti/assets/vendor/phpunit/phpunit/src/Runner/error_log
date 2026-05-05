@@ -1,0 +1,48 @@
+[23-Dec-2024 00:13:46 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Runner\AfterIncompleteTestHook" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Runner/ResultCacheExtension.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Runner/ResultCacheExtension.php on line 18
+[23-Dec-2024 00:13:50 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Framework\Reorderable" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Runner/PhptTestCase.php:66
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Runner/PhptTestCase.php on line 66
+[23-Dec-2024 00:13:54 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Runner/Exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Runner/Exception.php on line 17
+[23-Dec-2024 00:19:54 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Runner\TestSuiteLoader" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php on line 31
+[23-Dec-2024 00:19:58 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Runner\TestResultCache" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Runner/NullTestResultCache.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Runner/NullTestResultCache.php on line 15
+[23-Dec-2024 00:20:02 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Runner\TestResultCache" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Runner/DefaultTestResultCache.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Runner/DefaultTestResultCache.php on line 30
+[18-Jan-2025 10:09:27 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Runner/Exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Runner/Exception.php on line 17
+[18-Jan-2025 10:10:23 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Runner\TestSuiteLoader" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Runner/StandardTestSuiteLoader.php on line 31
+[18-Jan-2025 10:10:31 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Runner\TestResultCache" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Runner/NullTestResultCache.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Runner/NullTestResultCache.php on line 15
+[18-Jan-2025 10:12:56 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Runner\AfterIncompleteTestHook" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Runner/ResultCacheExtension.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Runner/ResultCacheExtension.php on line 18
+[18-Jan-2025 10:13:44 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Framework\Reorderable" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Runner/PhptTestCase.php:66
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Runner/PhptTestCase.php on line 66
+[18-Jan-2025 10:15:43 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Runner\TestResultCache" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Runner/DefaultTestResultCache.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Runner/DefaultTestResultCache.php on line 30

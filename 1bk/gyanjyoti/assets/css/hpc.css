@@ -1,0 +1,345 @@
+p {
+  color: grey;
+}
+#heading {
+  text-transform: uppercase;
+  color: #f89406;
+  font-weight: normal;
+}
+#hpcform {
+  text-align: center;
+  position: relative;
+  margin-top: 81px;
+}
+#hpcform fieldset {
+  background: white;
+  border: 0 none;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 20px;
+  position: relative;
+}
+.form-card {
+  text-align: left;
+}
+#hpcform fieldset:not(:first-of-type) {
+  display: none;
+}
+#hpcform input,
+#hpcform textarea {
+  padding: 8px 15px 8px 15px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  margin-bottom: 25px;
+  margin-top: 2px;
+  /*width: auto;*/
+  box-sizing: border-box;
+  font-family: montserrat;
+  color: #2c3e50;
+  background-color: #eceff1;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+#hpcform input:focus,
+#hpcform textarea:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px solid #f89406;
+  outline-width: 0;
+}
+#hpcform .action-button {
+  width: 100px;
+  background: #f89406;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 0px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 0px 10px 5px;
+  float: right;
+}
+#hpcform .action-button:hover,
+#hpcform .action-button:focus {
+  background-color: #311b92;
+}
+#hpcform .action-button-previous {
+  width: 100px;
+  background: #616161;
+  font-weight: bold;
+  color: white;
+  border: 0 none;
+  border-radius: 0px;
+  cursor: pointer;
+  padding: 10px 5px;
+  margin: 10px 5px 10px 0px;
+  float: right;
+}
+#hpcform .action-button-previous:hover,
+#hpcform .action-button-previous:focus {
+  background-color: #000000;
+}
+.card-a {
+  z-index: 0;
+  border: none;
+  position: relative;
+}
+.fs-title {
+  font-size: 25px;
+  color: #ffa500;
+  margin-bottom: 15px;
+  font-weight: normal;
+  text-align: center;
+}
+.purple-text {
+  color: #f89406;
+  font-weight: normal;
+}
+.steps {
+  font-size: 25px;
+  color: gray;
+  margin-bottom: 10px;
+  font-weight: normal;
+  text-align: right;
+      margin-top: -50px;
+}
+.fieldlabels {
+  color: gray;
+  text-align: left;
+}
+#progressbar {
+  margin-bottom: 30px;
+  overflow: hidden;
+  color: lightgrey;
+}
+#progressbar .active {
+  color: #f89406;
+}
+#progressbar li {
+  list-style-type: none;
+  font-size: 15px;
+  width: 25%;
+  float: left;
+  position: relative;
+  font-weight: 400;
+}
+#progressbar #partA:before {
+  font-family: FontAwesome;
+  content: "\f13e";
+}
+#progressbar #partA2:before {
+  font-family: FontAwesome;
+  content: "\f007";
+}
+#progressbar #partB:before {
+  font-family: FontAwesome;
+  content: "\f00c";
+}
+#progressbar #partC:before {
+  font-family: FontAwesome;
+  content: "\f00c";
+}
+#progressbar #domain2:before {
+  font-family: FontAwesome;
+  content: "\f00c";
+}
+#progressbar #domain3:before {
+  font-family: FontAwesome;
+  content: "\f00c";
+}
+#progressbar #domain4:before {
+  font-family: FontAwesome;
+  content: "\f00c";
+}
+#progressbar #domain5:before {
+  font-family: FontAwesome;
+  content: "\f00c";
+}
+#progressbar #domain51:before {
+  font-family: FontAwesome;
+  content: "\f00c";
+}
+#progressbar #teacherFed:before {
+  font-family: FontAwesome;
+  content: "\f00c";
+}
+#progressbar #teacherFed2:before {
+  font-family: FontAwesome;
+  content: "\f00c";
+}
+#progressbar #teacherFed3:before {
+  font-family: FontAwesome;
+  content: "\f00c";
+}
+#progressbar #teacherFed4:before {
+  font-family: FontAwesome;
+  content: "\f00c";
+}
+#progressbar #teacherFed5:before {
+  font-family: FontAwesome;
+  content: "\f00c";
+}
+#progressbar #teacherFed51:before {
+  font-family: FontAwesome;
+  content: "\f00c";
+}
+#progressbar li:before {
+  width: 50px;
+  height: 50px;
+  line-height: 45px;
+  display: block;
+  font-size: 20px;
+  color: #ffffff;
+  background: lightgray;
+  border-radius: 50%;
+  margin: 0 auto 10px auto;
+  padding: 2px;
+}
+#progressbar li:after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: lightgray;
+  position: absolute;
+  left: 0;
+  top: 25px;
+  z-index: -1;
+}
+#progressbar li.active:before,
+#progressbar li.active:after {
+  background: #f89406;
+}
+.progress {
+  height: 20px;
+}
+.progress-bar {
+  background-color: #f89406;
+}
+.fit-image {
+  width: 100%;
+  object-fit: cover;
+}
+.progress-bar-animated {
+  -webkit-animation: progress-bar-stripes 1s linear infinite;
+  animation: progress-bar-stripes 1s linear infinite;
+}
+span.boldText, h3.boldText.text-left {
+    font-size: 29px;
+    font-weight: 700;
+    color: #ffa500;
+}
+
+.col-md-12.border.border-dark.rounded.row.mt-3 {
+    border-bottom: 3px solid #000;
+    margin-bottom: 25px;
+}
+
+form#hpcform .form-check {
+    display: inline-block;
+    padding: 6px;
+}
+form#hpcform img.studentImg {
+    width: 200px;
+}
+form#hpcform .col-md-2 {
+    text-align: justify;
+}
+ form#hpcform table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 16px;
+        text-align: center;
+    }
+   form#hpcform th, td {
+        padding: 10px;
+        border: 1px solid orange;
+    }
+    form#hpcform th {
+        background-color: orange;
+        color: #fff;
+    }
+    form#hpcform input {
+        width: 90%; /* Adjust input width as needed */
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    /*thead tr th {*/
+    /*    background: orange !important;*/
+    /*}*/
+    form#hpcform td.leftHed {
+        background: #ffe7bb;
+    }
+    .genHed {
+    text-align: center;
+}
+td.text-strat {
+    text-align: left;
+}
+table.assessment .bgLightOreng {
+    background: #ffc251 !important;
+}
+img.sky {
+    width: 200px;
+}
+.col-md-2.selfAssessment {
+    height: 100px;
+    background: purple;
+    color: #fff;
+    padding-top: 37px;
+    /* font-size: 12px; */
+    padding-left: 37px;
+}
+.hed h6 {
+    color: #fff;
+    font-size: 18px;
+}
+.hed.gereenBg {
+    background: green;
+    
+}
+img.iocnImg {
+    width: 50px;
+}
+.boderLeft {
+    border-right: 1px solid #000 !important;
+}
+.hed {
+    margin-bottom: 8px;
+    padding: 3px;
+}
+.hed.pinkBg {
+    background: #ff9cad;
+}
+.hed.infoBg {
+    background: #35cdff;
+}
+.col-md-2.selfAssessment {
+    height: 181px;
+    background: purple;
+    color: #fff;
+    padding-top: 77px;
+    /* font-size: 20px; */
+    padding-left: 41px;
+}
+.text-start {
+    text-align: start;
+}
+.iconText label {
+    font-size: 10px;
+    text-align: center;
+}
+.hed.greenBg {
+    background: green;
+}
+.alert.alert-error.alert-dismissible {
+    background: #ff3f3f;
+    color: #fff;
+}
+/*#hpcform fieldset:not(:first-of-type) {*/
+/*    display: block;*/
+/*}*/

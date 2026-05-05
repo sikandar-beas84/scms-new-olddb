@@ -1,0 +1,20 @@
+[23-Dec-2024 00:55:54 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Constraint\Constraint" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/JsonMatches.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/JsonMatches.php on line 21
+[23-Dec-2024 00:55:58 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Constraint\Constraint" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/IsIdentical.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/IsIdentical.php on line 23
+[23-Dec-2024 00:56:02 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Constraint\Constraint" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/IsAnything.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/IsAnything.php on line 17
+[23-Dec-2024 00:56:06 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Framework\SelfDescribing" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php on line 22
+[23-Dec-2024 00:56:10 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Constraint\Constraint" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Callback.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Callback.php on line 17

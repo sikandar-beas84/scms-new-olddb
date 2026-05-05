@@ -1,0 +1,4 @@
+[23-Dec-2024 00:11:06 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Handler\CurlFactoryInterface" not found in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php on line 20

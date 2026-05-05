@@ -1,0 +1,20 @@
+[23-Dec-2024 01:30:30 UTC] PHP Fatal error:  Uncaught Error: Class "org\bovigo\vfs\vfsStreamAbstractContent" not found in /home/gyanjyotipublics/public_html/assets/vendor/mikey179/vfsstream/src/main/php/org/bovigo/vfs/vfsStreamFile.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/mikey179/vfsstream/src/main/php/org/bovigo/vfs/vfsStreamFile.php on line 18
+[23-Dec-2024 01:30:38 UTC] PHP Fatal error:  Uncaught Error: Class "org\bovigo\vfs\vfsStreamAbstractContent" not found in /home/gyanjyotipublics/public_html/assets/vendor/mikey179/vfsstream/src/main/php/org/bovigo/vfs/vfsStreamDirectory.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/mikey179/vfsstream/src/main/php/org/bovigo/vfs/vfsStreamDirectory.php on line 16
+[23-Dec-2024 01:30:54 UTC] PHP Fatal error:  Uncaught Error: Class "org\bovigo\vfs\vfsStreamFile" not found in /home/gyanjyotipublics/public_html/assets/vendor/mikey179/vfsstream/src/main/php/org/bovigo/vfs/vfsStreamBlock.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/mikey179/vfsstream/src/main/php/org/bovigo/vfs/vfsStreamBlock.php on line 17
+[23-Dec-2024 01:31:14 UTC] PHP Fatal error:  Uncaught Error: Class "org\bovigo\vfs\vfsStreamDirectory" not found in /home/gyanjyotipublics/public_html/assets/vendor/mikey179/vfsstream/src/main/php/org/bovigo/vfs/DotDirectory.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/mikey179/vfsstream/src/main/php/org/bovigo/vfs/DotDirectory.php on line 14
+[23-Dec-2024 02:28:11 UTC] PHP Fatal error:  Uncaught Error: Interface "org\bovigo\vfs\vfsStreamContent" not found in /home/gyanjyotipublics/public_html/assets/vendor/mikey179/vfsstream/src/main/php/org/bovigo/vfs/vfsStreamAbstractContent.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/mikey179/vfsstream/src/main/php/org/bovigo/vfs/vfsStreamAbstractContent.php on line 14

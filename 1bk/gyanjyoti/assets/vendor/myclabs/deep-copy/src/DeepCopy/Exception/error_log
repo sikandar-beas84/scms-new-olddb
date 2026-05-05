@@ -1,0 +1,2 @@
+[23-Dec-2024 00:54:34 UTC] PHP Parse error:  syntax error, unexpected identifier "Sarkar", expecting "{" in /home/gyanjyotipublics/public_html/assets/vendor/myclabs/deep-copy/src/DeepCopy/Exception/PropertyException.php on line 3
+[23-Dec-2024 00:54:38 UTC] PHP Parse error:  syntax error, unexpected identifier "Sarkar", expecting "{" in /home/gyanjyotipublics/public_html/assets/vendor/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php on line 3

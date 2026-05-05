@@ -1,0 +1,14 @@
+[20-Dec-2024 21:20:15 UTC] PHP Warning:  require(/home/gyanjyotipublics/public_html/assets/vendor/composer/../myclabs/Suhrid Sarkar || suhrid.developer@gmail.com-copy/src/Suhrid Sarkar || suhrid.developer@gmail.comCopy/Suhrid Sarkar || suhrid.developer@gmail.com_copy.php): Failed to open stream: No such file or directory in /home/gyanjyotipublics/public_html/assets/vendor/composer/autoload_real.php on line 41
+[20-Dec-2024 21:20:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gyanjyotipublics/public_html/assets/vendor/composer/../myclabs/Suhrid Sarkar || suhrid.developer@gmail.com-copy/src/Suhrid Sarkar || suhrid.developer@gmail.comCopy/Suhrid Sarkar || suhrid.developer@gmail.com_copy.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/gyanjyotipublics/public_html/assets/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/gyanjyotipublics/public_html/assets/vendor/composer/autoload_real.php(45): {closure}('6124b4c8570aa39...', '/home/gyanjyoti...')
+#1 /home/gyanjyotipublics/public_html/assets/vendor/autoload.php(25): ComposerAutoloaderInit6c7db37602eb1a05128e8bb3bdf136bb::getLoader()
+#2 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/composer/autoload_real.php on line 41
+[22-Dec-2024 23:47:50 UTC] PHP Warning:  require(/home/gyanjyotipublics/public_html/assets/vendor/composer/../myclabs/Suhrid Sarkar || suhrid.developer@gmail.com-copy/src/Suhrid Sarkar || suhrid.developer@gmail.comCopy/Suhrid Sarkar || suhrid.developer@gmail.com_copy.php): Failed to open stream: No such file or directory in /home/gyanjyotipublics/public_html/assets/vendor/composer/autoload_real.php on line 41
+[22-Dec-2024 23:47:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gyanjyotipublics/public_html/assets/vendor/composer/../myclabs/Suhrid Sarkar || suhrid.developer@gmail.com-copy/src/Suhrid Sarkar || suhrid.developer@gmail.comCopy/Suhrid Sarkar || suhrid.developer@gmail.com_copy.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/gyanjyotipublics/public_html/assets/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home/gyanjyotipublics/public_html/assets/vendor/composer/autoload_real.php(45): {closure}('6124b4c8570aa39...', '/home/gyanjyoti...')
+#1 /home/gyanjyotipublics/public_html/assets/vendor/autoload.php(25): ComposerAutoloaderInit6c7db37602eb1a05128e8bb3bdf136bb::getLoader()
+#2 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/composer/autoload_real.php on line 41

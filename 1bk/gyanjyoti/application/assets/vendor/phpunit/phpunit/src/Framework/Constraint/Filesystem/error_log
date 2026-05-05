@@ -1,0 +1,16 @@
+[23-Dec-2024 01:00:18 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Constraint\Constraint" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Filesystem/IsWritable.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Filesystem/IsWritable.php on line 18
+[23-Dec-2024 01:00:22 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Constraint\Constraint" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Filesystem/IsReadable.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Filesystem/IsReadable.php on line 18
+[23-Dec-2024 01:00:26 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Constraint\Constraint" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Filesystem/FileExists.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Filesystem/FileExists.php on line 18
+[23-Dec-2024 01:00:30 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Constraint\Constraint" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Filesystem/DirectoryExists.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Filesystem/DirectoryExists.php on line 18

@@ -1,0 +1,12 @@
+[23-Dec-2024 00:20:06 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\LinesOfCode\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/lines-of-code/src/Exception/RuntimeException.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/lines-of-code/src/Exception/RuntimeException.php on line 12
+[23-Dec-2024 00:20:10 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\LinesOfCode\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/lines-of-code/src/Exception/NegativeValueException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/lines-of-code/src/Exception/NegativeValueException.php on line 14
+[23-Dec-2024 00:20:14 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\LinesOfCode\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/lines-of-code/src/Exception/IllogicalValuesException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/lines-of-code/src/Exception/IllogicalValuesException.php on line 14

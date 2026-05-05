@@ -1,0 +1,6 @@
+[23-Dec-2024 00:28:30 UTC] PHP Warning:  Undefined variable $argv in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/grammar/rebuildParsers.php on line 24
+[23-Dec-2024 00:28:30 UTC] PHP Fatal error:  Uncaught TypeError: array_flip(): Argument #1 ($array) must be of type array, null given in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/grammar/rebuildParsers.php:24
+Stack trace:
+#0 /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/grammar/rebuildParsers.php(24): array_flip(NULL)
+#1 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/grammar/rebuildParsers.php on line 24

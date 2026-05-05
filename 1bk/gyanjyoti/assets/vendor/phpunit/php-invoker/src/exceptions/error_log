@@ -1,0 +1,8 @@
+[23-Dec-2024 00:26:26 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\Invoker\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-invoker/src/exceptions/TimeoutException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-invoker/src/exceptions/TimeoutException.php on line 14
+[23-Dec-2024 00:26:30 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\Invoker\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-invoker/src/exceptions/ProcessControlExtensionNotLoadedException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-invoker/src/exceptions/ProcessControlExtensionNotLoadedException.php on line 14

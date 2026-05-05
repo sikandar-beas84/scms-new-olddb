@@ -1,0 +1,12 @@
+[23-Dec-2024 00:13:14 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Runner\BaseTestRunner" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:89
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/TestRunner.php on line 89
+[23-Dec-2024 00:13:18 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Framework\TestListener" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/ResultPrinter.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/ResultPrinter.php on line 18
+[23-Dec-2024 00:13:22 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Util\Printer" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/DefaultResultPrinter.php:48
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/DefaultResultPrinter.php on line 48

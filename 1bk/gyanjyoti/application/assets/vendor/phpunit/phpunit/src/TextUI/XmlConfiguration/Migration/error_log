@@ -1,0 +1,8 @@
+[23-Dec-2024 01:11:26 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/MigrationException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/MigrationException.php on line 17
+[23-Dec-2024 01:11:30 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/MigrationBuilderException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/MigrationBuilderException.php on line 17

@@ -1,0 +1,8 @@
+[23-Dec-2024 00:19:02 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\Template\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-text-template/src/exceptions/RuntimeException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-text-template/src/exceptions/RuntimeException.php on line 14
+[23-Dec-2024 00:19:06 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\Template\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-text-template/src/exceptions/InvalidArgumentException.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-text-template/src/exceptions/InvalidArgumentException.php on line 12

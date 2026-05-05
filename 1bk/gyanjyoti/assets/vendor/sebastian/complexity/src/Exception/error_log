@@ -1,0 +1,4 @@
+[23-Dec-2024 00:24:10 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\Complexity\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/complexity/src/Exception/RuntimeException.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/complexity/src/Exception/RuntimeException.php on line 12

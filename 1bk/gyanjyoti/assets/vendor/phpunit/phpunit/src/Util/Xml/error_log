@@ -1,0 +1,12 @@
+[23-Dec-2024 00:34:06 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/Xml/Exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/Xml/Exception.php on line 17
+[23-Dec-2024 00:50:14 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Util\Xml\SchemaDetectionResult" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/Xml/SuccessfulSchemaDetectionResult.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/Xml/SuccessfulSchemaDetectionResult.php on line 17
+[23-Dec-2024 00:50:26 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Util\Xml\SchemaDetectionResult" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/Xml/FailedSchemaDetectionResult.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/Xml/FailedSchemaDetectionResult.php on line 17

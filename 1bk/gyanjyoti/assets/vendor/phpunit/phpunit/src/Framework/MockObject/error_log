@@ -1,0 +1,20 @@
+[23-Dec-2024 00:54:58 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Framework\MockObject\MockType" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/MockTrait.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/MockTrait.php on line 17
+[23-Dec-2024 00:55:02 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Framework\MockObject\Stub" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/MockObject.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/MockObject.php on line 20
+[23-Dec-2024 00:55:14 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Framework\MockObject\MockType" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/MockClass.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/MockClass.php on line 18
+[23-Dec-2024 00:55:22 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Constraint\Constraint" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/MethodNameConstraint.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/MethodNameConstraint.php on line 20
+[23-Dec-2024 00:55:34 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Framework\SelfDescribing" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Invocation.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Invocation.php on line 33

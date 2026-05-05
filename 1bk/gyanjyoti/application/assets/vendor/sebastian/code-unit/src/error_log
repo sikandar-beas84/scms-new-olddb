@@ -1,0 +1,29 @@
+[22-Dec-2024 23:55:30 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\CodeUnit\CodeUnit" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/code-unit/src/TraitUnit.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/code-unit/src/TraitUnit.php on line 15
+[22-Dec-2024 23:55:34 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\CodeUnit\CodeUnit" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/code-unit/src/ClassUnit.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/code-unit/src/ClassUnit.php on line 15
+[22-Dec-2024 23:55:38 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\CodeUnit\CodeUnit" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/code-unit/src/TraitMethodUnit.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/code-unit/src/TraitMethodUnit.php on line 15
+[22-Dec-2024 23:55:42 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\CodeUnit\CodeUnit" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/code-unit/src/InterfaceMethodUnit.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/code-unit/src/InterfaceMethodUnit.php on line 15
+[22-Dec-2024 23:55:46 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\CodeUnit\CodeUnit" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/code-unit/src/FunctionUnit.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/code-unit/src/FunctionUnit.php on line 15
+[22-Dec-2024 23:55:50 UTC] PHP Fatal error:  Could not check compatibility between SebastianBergmann\CodeUnit\CodeUnitCollection::getIterator(): SebastianBergmann\CodeUnit\CodeUnitCollectionIterator and IteratorAggregate::getIterator(): Traversable, because class SebastianBergmann\CodeUnit\CodeUnitCollectionIterator is not available in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/code-unit/src/CodeUnitCollection.php on line 55
+[22-Dec-2024 23:55:54 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\CodeUnit\CodeUnit" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/code-unit/src/ClassMethodUnit.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/code-unit/src/ClassMethodUnit.php on line 15
+[22-Dec-2024 23:55:58 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\CodeUnit\CodeUnit" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/code-unit/src/InterfaceUnit.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/code-unit/src/InterfaceUnit.php on line 15

@@ -1,0 +1,12 @@
+[23-Dec-2024 00:16:18 UTC] PHP Fatal error:  Uncaught Error: Class "GuzzleHttp\Cookie\CookieJar" not found in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Cookie/FileCookieJar.php on line 10
+[23-Dec-2024 00:16:26 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Cookie\CookieJarInterface" not found in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php on line 11
+[23-Dec-2024 00:17:22 UTC] PHP Fatal error:  Uncaught Error: Class "GuzzleHttp\Cookie\CookieJar" not found in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Cookie/SessionCookieJar.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Cookie/SessionCookieJar.php on line 8

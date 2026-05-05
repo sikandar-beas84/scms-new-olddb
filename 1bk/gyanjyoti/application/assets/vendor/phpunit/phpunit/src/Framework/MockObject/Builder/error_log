@@ -1,0 +1,16 @@
+[23-Dec-2024 01:05:26 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Framework\MockObject\Builder\Identity" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Builder/Stub.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Builder/Stub.php on line 17
+[23-Dec-2024 01:05:30 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Framework\MockObject\Builder\Stub" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Builder/ParametersMatch.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Builder/ParametersMatch.php on line 15
+[23-Dec-2024 01:05:34 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Framework\MockObject\Builder\ParametersMatch" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Builder/MethodNameMatch.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Builder/MethodNameMatch.php on line 15
+[23-Dec-2024 01:05:42 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Framework\MockObject\Builder\InvocationStubber" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Builder/InvocationMocker.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Builder/InvocationMocker.php on line 43

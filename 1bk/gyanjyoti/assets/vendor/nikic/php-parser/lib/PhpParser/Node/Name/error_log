@@ -1,0 +1,8 @@
+[23-Dec-2024 01:18:10 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Name" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Name/Relative.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Name/Relative.php on line 5
+[23-Dec-2024 01:18:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Name" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Name/FullyQualified.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Name/FullyQualified.php on line 5

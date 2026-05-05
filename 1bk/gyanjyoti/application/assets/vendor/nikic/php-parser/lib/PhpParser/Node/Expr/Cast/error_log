@@ -1,0 +1,28 @@
+[23-Dec-2024 01:25:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr\Cast" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Unset_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Unset_.php on line 7
+[23-Dec-2024 01:25:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr\Cast" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/String_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/String_.php on line 7
+[23-Dec-2024 01:25:46 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr\Cast" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Object_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Object_.php on line 7
+[23-Dec-2024 01:25:50 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr\Cast" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Int_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Int_.php on line 7
+[23-Dec-2024 01:25:55 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr\Cast" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Double.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Double.php on line 7
+[23-Dec-2024 01:25:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr\Cast" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Bool_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Bool_.php on line 7
+[23-Dec-2024 01:26:02 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr\Cast" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Array_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast/Array_.php on line 7

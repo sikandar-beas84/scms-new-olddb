@@ -1,0 +1,8 @@
+[23-Dec-2024 01:30:06 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Precedence.php on line 7
+[23-Dec-2024 01:30:10 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\TraitUseAdaptation" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Alias.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation/Alias.php on line 7

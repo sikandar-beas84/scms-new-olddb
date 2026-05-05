@@ -1,0 +1,72 @@
+[23-Dec-2024 00:32:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt.php on line 7
+[23-Dec-2024 00:32:34 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar.php on line 5
+[23-Dec-2024 00:32:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Param.php on line 7
+[23-Dec-2024 00:32:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php on line 7
+[23-Dec-2024 00:32:46 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr.php on line 7
+[23-Dec-2024 00:32:50 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Const_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Const_.php on line 7
+[23-Dec-2024 00:32:54 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Arg.php on line 8
+[23-Dec-2024 00:52:50 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/VariadicPlaceholder.php on line 10
+[23-Dec-2024 00:52:54 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Identifier" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/VarLikeIdentifier.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/VarLikeIdentifier.php on line 12
+[23-Dec-2024 00:52:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/UnionType.php on line 5
+[23-Dec-2024 00:53:02 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/NullableType.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/NullableType.php on line 5
+[23-Dec-2024 00:53:06 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/MatchArm.php on line 8
+[23-Dec-2024 00:53:10 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\ComplexType" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/IntersectionType.php on line 7
+[23-Dec-2024 00:53:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Identifier.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Identifier.php on line 10
+[23-Dec-2024 00:53:18 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\Node" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/FunctionLike.php on line 7
+[23-Dec-2024 00:53:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/ComplexType.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/ComplexType.php on line 12
+[23-Dec-2024 00:53:26 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/AttributeGroup.php on line 8
+[23-Dec-2024 00:53:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeAbstract" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Attribute.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Attribute.php on line 8

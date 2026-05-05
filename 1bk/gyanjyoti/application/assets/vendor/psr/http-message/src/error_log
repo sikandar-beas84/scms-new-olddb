@@ -1,0 +1,12 @@
+[23-Dec-2024 00:37:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\RequestInterface" not found in /home/gyanjyotipublics/public_html/assets/vendor/psr/http-message/src/ServerRequestInterface.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/psr/http-message/src/ServerRequestInterface.php on line 43
+[23-Dec-2024 00:37:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\MessageInterface" not found in /home/gyanjyotipublics/public_html/assets/vendor/psr/http-message/src/ResponseInterface.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/psr/http-message/src/ResponseInterface.php on line 20
+[23-Dec-2024 00:37:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Message\MessageInterface" not found in /home/gyanjyotipublics/public_html/assets/vendor/psr/http-message/src/RequestInterface.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/psr/http-message/src/RequestInterface.php on line 24

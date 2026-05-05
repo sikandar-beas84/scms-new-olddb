@@ -1,0 +1,16 @@
+[23-Dec-2024 00:11:18 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\CodeCoverage\Driver\Driver" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Driver/PcovDriver.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Driver/PcovDriver.php on line 27
+[23-Dec-2024 00:20:58 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\CodeCoverage\Driver\Driver" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Driver/Xdebug3Driver.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Driver/Xdebug3Driver.php on line 35
+[23-Dec-2024 00:21:02 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\CodeCoverage\Driver\Driver" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Driver/Xdebug2Driver.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Driver/Xdebug2Driver.php on line 34
+[23-Dec-2024 00:21:10 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\CodeCoverage\Driver\Driver" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Driver/PhpdbgDriver.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Driver/PhpdbgDriver.php on line 26

@@ -1,0 +1,12 @@
+[23-Dec-2024 00:33:06 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\ParserAbstract" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Parser/Php7.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Parser/Php7.php on line 18
+[23-Dec-2024 00:33:10 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\ParserAbstract" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Parser/Php5.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Parser/Php5.php on line 18
+[23-Dec-2024 00:52:26 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\Parser" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Parser/Multiple.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Parser/Multiple.php on line 9

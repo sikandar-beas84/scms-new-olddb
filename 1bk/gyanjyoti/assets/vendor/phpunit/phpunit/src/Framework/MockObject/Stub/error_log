@@ -1,0 +1,36 @@
+[23-Dec-2024 01:01:50 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Framework\SelfDescribing" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Stub/Stub.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Stub/Stub.php on line 18
+[23-Dec-2024 01:01:54 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Framework\MockObject\Stub\Stub" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Stub/ReturnValueMap.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Stub/ReturnValueMap.php on line 20
+[23-Dec-2024 01:01:58 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Framework\MockObject\Stub\Stub" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Stub/ReturnStub.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Stub/ReturnStub.php on line 19
+[23-Dec-2024 01:02:02 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Framework\MockObject\Stub\Stub" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Stub/ReturnSelf.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Stub/ReturnSelf.php on line 18
+[23-Dec-2024 01:02:06 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Framework\MockObject\Stub\Stub" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Stub/ReturnReference.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Stub/ReturnReference.php on line 19
+[23-Dec-2024 01:02:10 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Framework\MockObject\Stub\Stub" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Stub/ReturnCallback.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Stub/ReturnCallback.php on line 22
+[23-Dec-2024 01:02:14 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Framework\MockObject\Stub\Stub" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Stub/ReturnArgument.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Stub/ReturnArgument.php on line 18
+[23-Dec-2024 01:02:18 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Framework\MockObject\Stub\Stub" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Stub/Exception.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Stub/Exception.php on line 20
+[23-Dec-2024 01:02:22 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Framework\MockObject\Stub\Stub" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Stub/ConsecutiveCalls.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Stub/ConsecutiveCalls.php on line 20

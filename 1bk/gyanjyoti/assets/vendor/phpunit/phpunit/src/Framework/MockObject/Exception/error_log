@@ -1,0 +1,96 @@
+[23-Dec-2024 01:04:10 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/UnknownTypeException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/UnknownTypeException.php on line 17
+[23-Dec-2024 01:04:14 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/UnknownTraitException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/UnknownTraitException.php on line 17
+[23-Dec-2024 01:04:18 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/UnknownClassException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/UnknownClassException.php on line 17
+[23-Dec-2024 01:04:22 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Framework\MockObject\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/RuntimeException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/RuntimeException.php on line 15
+[23-Dec-2024 01:04:26 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Framework\MockObject\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/ReflectionException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/ReflectionException.php on line 17
+[23-Dec-2024 01:04:30 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/MethodNameNotConfiguredException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/MethodNameNotConfiguredException.php on line 15
+[23-Dec-2024 01:04:34 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/MatchBuilderNotFoundException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/MatchBuilderNotFoundException.php on line 17
+[23-Dec-2024 01:04:37 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/InvalidMethodNameException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/InvalidMethodNameException.php on line 17
+[23-Dec-2024 01:04:42 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/IncompatibleReturnValueException.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/IncompatibleReturnValueException.php on line 20
+[23-Dec-2024 01:04:50 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/DuplicateMethodException.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/DuplicateMethodException.php on line 20
+[23-Dec-2024 01:04:54 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/ClassIsReadonlyException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/ClassIsReadonlyException.php on line 17
+[23-Dec-2024 01:04:58 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/ClassIsFinalException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/ClassIsFinalException.php on line 17
+[23-Dec-2024 01:05:02 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/ClassAlreadyExistsException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/ClassAlreadyExistsException.php on line 17
+[23-Dec-2024 01:05:06 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/CannotUseOnlyMethodsException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/CannotUseOnlyMethodsException.php on line 17
+[23-Dec-2024 01:05:10 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/CannotUseAddMethodsException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/CannotUseAddMethodsException.php on line 17
+[23-Dec-2024 01:05:14 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Framework\MockObject\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/BadMethodCallException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/BadMethodCallException.php on line 15
+[23-Dec-2024 01:22:14 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/SoapExtensionNotAvailableException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/SoapExtensionNotAvailableException.php on line 15
+[23-Dec-2024 01:22:18 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/ReturnValueNotConfiguredException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/ReturnValueNotConfiguredException.php on line 17
+[23-Dec-2024 01:22:22 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/OriginalConstructorInvocationRequiredException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/OriginalConstructorInvocationRequiredException.php on line 15
+[23-Dec-2024 01:22:26 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/MethodParametersAlreadyConfiguredException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/MethodParametersAlreadyConfiguredException.php on line 15
+[23-Dec-2024 01:22:30 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/MethodNameAlreadyConfiguredException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/MethodNameAlreadyConfiguredException.php on line 15
+[23-Dec-2024 01:22:34 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/MethodCannotBeConfiguredException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/MethodCannotBeConfiguredException.php on line 17
+[23-Dec-2024 01:22:38 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/MatcherAlreadyRegisteredException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/MatcherAlreadyRegisteredException.php on line 17
+[23-Dec-2024 01:22:42 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/ConfigurableMethodsAlreadyInitializedException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/MockObject/Exception/ConfigurableMethodsAlreadyInitializedException.php on line 15

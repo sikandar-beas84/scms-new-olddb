@@ -1,0 +1,34 @@
+[23-Dec-2024 00:12:02 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Framework\Reorderable" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/TestSuite.php:54
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/TestSuite.php on line 54
+[23-Dec-2024 00:12:18 UTC] PHP Parse error:  syntax error, unexpected identifier "Sarkar", expecting "," or ";" in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/TestCase.php on line 67
+[23-Dec-2024 00:12:35 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/ErrorTestCase.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/ErrorTestCase.php on line 15
+[23-Dec-2024 00:22:50 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/WarningTestCase.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/WarningTestCase.php on line 15
+[23-Dec-2024 00:22:58 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/SkippedTestCase.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/SkippedTestCase.php on line 15
+[23-Dec-2024 00:23:06 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/InvalidParameterGroupException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/InvalidParameterGroupException.php on line 15
+[23-Dec-2024 00:23:11 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/IncompleteTestCase.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/IncompleteTestCase.php on line 15
+[23-Dec-2024 00:23:18 UTC] PHP Parse error:  syntax error, unexpected identifier "Sarkar", expecting "," or ";" in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/ExecutionOrderDependency.php on line 44
+[23-Dec-2024 00:23:22 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/ExceptionWrapper.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/ExceptionWrapper.php on line 31
+[23-Dec-2024 00:23:26 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestSuite" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/DataProviderTestSuite.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/DataProviderTestSuite.php on line 18

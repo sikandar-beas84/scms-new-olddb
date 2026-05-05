@@ -1,0 +1,8 @@
+[23-Dec-2024 00:24:18 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/complexity/src/Visitor/ComplexityCalculatingVisitor.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/complexity/src/Visitor/ComplexityCalculatingVisitor.php on line 24
+[23-Dec-2024 00:32:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\NodeVisitorAbstract" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/complexity/src/Visitor/CyclomaticComplexityCalculatingVisitor.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/complexity/src/Visitor/CyclomaticComplexityCalculatingVisitor.php on line 28

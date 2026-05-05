@@ -1,0 +1,60 @@
+[23-Dec-2024 00:30:38 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Type\Type" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/VoidType.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/VoidType.php on line 12
+[23-Dec-2024 00:30:42 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Type\Type" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/TrueType.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/TrueType.php on line 12
+[23-Dec-2024 00:30:46 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Type\Type" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/NullType.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/NullType.php on line 12
+[23-Dec-2024 00:30:50 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Type\Type" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/UnionType.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/UnionType.php on line 16
+[23-Dec-2024 00:30:58 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Type\Type" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/StaticType.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/StaticType.php on line 12
+[23-Dec-2024 00:31:02 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Type\Type" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/SimpleType.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/SimpleType.php on line 14
+[23-Dec-2024 00:31:06 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Type\Type" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/ObjectType.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/ObjectType.php on line 15
+[23-Dec-2024 00:31:10 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Type\Type" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/NeverType.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/NeverType.php on line 12
+[23-Dec-2024 00:31:14 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Type\Type" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/MixedType.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/MixedType.php on line 12
+[23-Dec-2024 00:31:18 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Type\Type" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/FalseType.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/FalseType.php on line 12
+[23-Dec-2024 00:31:22 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Type\Type" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/UnknownType.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/UnknownType.php on line 12
+[23-Dec-2024 00:31:26 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Type\Type" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/IterableType.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/IterableType.php on line 18
+[23-Dec-2024 00:31:30 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Type\Type" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/IntersectionType.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/IntersectionType.php on line 18
+[23-Dec-2024 00:31:34 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Type\Type" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/GenericObjectType.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/GenericObjectType.php on line 12
+[23-Dec-2024 00:31:38 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Type\Type" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/CallableType.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/type/src/type/CallableType.php on line 25

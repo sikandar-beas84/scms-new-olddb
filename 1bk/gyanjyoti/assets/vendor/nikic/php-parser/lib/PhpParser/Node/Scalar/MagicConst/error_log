@@ -1,0 +1,32 @@
+[23-Dec-2024 01:29:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar\MagicConst" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst/Trait_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst/Trait_.php on line 7
+[23-Dec-2024 01:29:34 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar\MagicConst" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst/Namespace_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst/Namespace_.php on line 7
+[23-Dec-2024 01:29:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar\MagicConst" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst/Method.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst/Method.php on line 7
+[23-Dec-2024 01:29:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar\MagicConst" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst/Line.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst/Line.php on line 7
+[23-Dec-2024 01:29:46 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar\MagicConst" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst/Function_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst/Function_.php on line 7
+[23-Dec-2024 01:29:50 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar\MagicConst" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst/File.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst/File.php on line 7
+[23-Dec-2024 01:29:54 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar\MagicConst" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst/Dir.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst/Dir.php on line 7
+[23-Dec-2024 01:29:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Scalar\MagicConst" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst/Class_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Scalar/MagicConst/Class_.php on line 7

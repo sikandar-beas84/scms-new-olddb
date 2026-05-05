@@ -1,0 +1,71 @@
+/* ID Card Styling */
+.id-card {
+    width: 85.6mm;
+    height: 53.98mm;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.id-card-header {
+    background: linear-gradient(to right, #1a237e, #283593);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin: -5px -5px 10px -5px;
+    border-radius: 8px 8px 0 0;
+}
+
+.id-card-photo {
+    width: 25mm;
+    height: 30mm;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    background: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.id-card-qr {
+    width: 20mm;
+    height: 20mm;
+    border: 1px solid #ccc;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.id-card-barcode {
+    height: 15mm;
+    background: white;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Libre Barcode 128', cursive;
+    font-size: 24px;
+}
+
+/* Print styles */
+@media print {
+    .no-print {
+        display: none !important;
+    }
+    
+    .id-card {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+    
+    .page-break {
+        page-break-after: always;
+    }
+}

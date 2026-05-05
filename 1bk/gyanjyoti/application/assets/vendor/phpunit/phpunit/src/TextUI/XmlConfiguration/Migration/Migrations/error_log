@@ -1,0 +1,68 @@
+[23-Dec-2024 01:34:22 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\TextUI\XmlConfiguration\Migration" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/UpdateSchemaLocationTo93.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/UpdateSchemaLocationTo93.php on line 17
+[23-Dec-2024 01:34:26 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\TextUI\XmlConfiguration\Migration" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/RemoveLogTypes.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/RemoveLogTypes.php on line 20
+[23-Dec-2024 01:34:30 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\TextUI\XmlConfiguration\Migration" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/RemoveEmptyFilter.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/RemoveEmptyFilter.php on line 19
+[23-Dec-2024 01:34:34 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\TextUI\XmlConfiguration\Migration" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/RemoveCacheTokensAttribute.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/RemoveCacheTokensAttribute.php on line 17
+[23-Dec-2024 01:34:38 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\TextUI\XmlConfiguration\Migration" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/MoveWhitelistIncludesToCoverage.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/MoveWhitelistIncludesToCoverage.php on line 19
+[23-Dec-2024 01:34:42 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\TextUI\XmlConfiguration\Migration" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/MoveWhitelistExcludesToCoverage.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/MoveWhitelistExcludesToCoverage.php on line 21
+[23-Dec-2024 01:34:46 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\TextUI\XmlConfiguration\Migration" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/MoveAttributesFromRootToCoverage.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/MoveAttributesFromRootToCoverage.php on line 18
+[23-Dec-2024 01:34:51 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\TextUI\XmlConfiguration\Migration" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/MoveAttributesFromFilterWhitelistToCoverage.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/MoveAttributesFromFilterWhitelistToCoverage.php on line 18
+[23-Dec-2024 01:34:58 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\TextUI\XmlConfiguration\Migration" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/LogToReportMigration.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/LogToReportMigration.php on line 20
+[23-Dec-2024 01:35:02 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\TextUI\XmlConfiguration\Migration" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/IntroduceCoverageElement.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/IntroduceCoverageElement.php on line 17
+[23-Dec-2024 01:35:06 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\TextUI\XmlConfiguration\LogToReportMigration" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/CoverageXmlToReport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/CoverageXmlToReport.php on line 17
+[23-Dec-2024 01:35:10 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\TextUI\XmlConfiguration\LogToReportMigration" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/CoverageTextToReport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/CoverageTextToReport.php on line 17
+[23-Dec-2024 01:35:14 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\TextUI\XmlConfiguration\LogToReportMigration" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/CoveragePhpToReport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/CoveragePhpToReport.php on line 17
+[23-Dec-2024 01:35:18 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\TextUI\XmlConfiguration\LogToReportMigration" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/CoverageHtmlToReport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/CoverageHtmlToReport.php on line 17
+[23-Dec-2024 01:35:22 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\TextUI\XmlConfiguration\LogToReportMigration" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/CoverageCrap4jToReport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/CoverageCrap4jToReport.php on line 17
+[23-Dec-2024 01:35:26 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\TextUI\XmlConfiguration\LogToReportMigration" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/CoverageCloverToReport.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/CoverageCloverToReport.php on line 17
+[23-Dec-2024 01:35:30 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\TextUI\XmlConfiguration\Migration" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/ConvertLogTypes.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/ConvertLogTypes.php on line 18

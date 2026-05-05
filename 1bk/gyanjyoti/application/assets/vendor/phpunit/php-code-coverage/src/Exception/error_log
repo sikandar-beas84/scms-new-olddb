@@ -1,0 +1,84 @@
+[23-Dec-2024 00:17:26 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeCoverage\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/XmlException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/XmlException.php on line 14
+[23-Dec-2024 00:17:30 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeCoverage\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/XdebugNotAvailableException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/XdebugNotAvailableException.php on line 15
+[23-Dec-2024 00:17:34 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeCoverage\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/Xdebug3NotEnabledException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/Xdebug3NotEnabledException.php on line 15
+[23-Dec-2024 00:17:38 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeCoverage\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/Xdebug2NotEnabledException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/Xdebug2NotEnabledException.php on line 15
+[23-Dec-2024 00:17:42 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeCoverage\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/WrongXdebugVersionException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/WrongXdebugVersionException.php on line 15
+[23-Dec-2024 00:17:46 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeCoverage\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/WriteOperationFailedException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/WriteOperationFailedException.php on line 16
+[23-Dec-2024 00:17:50 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeCoverage\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/UnintentionallyCoveredCodeException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/UnintentionallyCoveredCodeException.php on line 14
+[23-Dec-2024 00:17:54 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeCoverage\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/TestIdMissingException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/TestIdMissingException.php on line 14
+[23-Dec-2024 00:17:58 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeCoverage\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/ReflectionException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/ReflectionException.php on line 14
+[23-Dec-2024 00:18:02 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeCoverage\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/PhpdbgNotAvailableException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/PhpdbgNotAvailableException.php on line 15
+[23-Dec-2024 00:18:06 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeCoverage\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/PcovNotAvailableException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/PcovNotAvailableException.php on line 15
+[23-Dec-2024 00:18:10 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeCoverage\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/PathExistsButIsNotDirectoryException.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/PathExistsButIsNotDirectoryException.php on line 16
+[23-Dec-2024 00:18:14 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeCoverage\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/ParserException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/ParserException.php on line 14
+[23-Dec-2024 00:18:18 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeCoverage\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/NoCodeCoverageDriverAvailableException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/NoCodeCoverageDriverAvailableException.php on line 14
+[23-Dec-2024 00:18:22 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeCoverage\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/InvalidArgumentException.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/InvalidArgumentException.php on line 12
+[23-Dec-2024 00:18:30 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeCoverage\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/DirectoryCouldNotBeCreatedException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/DirectoryCouldNotBeCreatedException.php on line 15
+[23-Dec-2024 00:18:35 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeCoverage\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/DeadCodeDetectionNotSupportedException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/DeadCodeDetectionNotSupportedException.php on line 14
+[23-Dec-2024 00:31:46 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeCoverage\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/StaticAnalysisCacheNotConfiguredException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/StaticAnalysisCacheNotConfiguredException.php on line 14
+[23-Dec-2024 00:31:50 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeCoverage\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/ReportAlreadyFinalizedException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/ReportAlreadyFinalizedException.php on line 14
+[23-Dec-2024 00:31:54 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeCoverage\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/NoCodeCoverageDriverWithPathCoverageSupportAvailableException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/NoCodeCoverageDriverWithPathCoverageSupportAvailableException.php on line 14
+[23-Dec-2024 00:31:58 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeCoverage\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/BranchAndPathCoverageNotSupportedException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/php-code-coverage/src/Exception/BranchAndPathCoverageNotSupportedException.php on line 14

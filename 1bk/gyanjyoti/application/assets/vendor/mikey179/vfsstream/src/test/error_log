@@ -1,0 +1,5 @@
+[23-Dec-2024 00:15:10 UTC] PHP Warning:  require(/home/gyanjyotipublics/public_html/assets/vendor/mikey179/vfsstream/src/test/../../vendor/autoload.php): Failed to open stream: No such file or directory in /home/gyanjyotipublics/public_html/assets/vendor/mikey179/vfsstream/src/test/bootstrap.php on line 3
+[23-Dec-2024 00:15:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/gyanjyotipublics/public_html/assets/vendor/mikey179/vfsstream/src/test/../../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/gyanjyotipublics/public_html/assets/vendor/mikey179/vfsstream/src/test/bootstrap.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/mikey179/vfsstream/src/test/bootstrap.php on line 3

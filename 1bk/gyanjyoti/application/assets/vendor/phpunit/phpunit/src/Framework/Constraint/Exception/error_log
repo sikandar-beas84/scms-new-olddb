@@ -1,0 +1,16 @@
+[23-Dec-2024 01:00:38 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Constraint\Constraint" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Exception/ExceptionMessage.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Exception/ExceptionMessage.php on line 19
+[23-Dec-2024 01:00:42 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Constraint\Constraint" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Exception/ExceptionCode.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Exception/ExceptionCode.php on line 18
+[23-Dec-2024 01:00:46 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Constraint\Constraint" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Exception/Exception.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Exception/Exception.php on line 20
+[23-Dec-2024 01:22:46 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Constraint\Constraint" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Exception/ExceptionMessageRegularExpression.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Constraint/Exception/ExceptionMessageRegularExpression.php on line 19

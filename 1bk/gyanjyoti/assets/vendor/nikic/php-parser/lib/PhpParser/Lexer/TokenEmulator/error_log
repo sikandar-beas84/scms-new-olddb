@@ -1,0 +1,52 @@
+[23-Dec-2024 01:13:34 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Lexer\TokenEmulator\TokenEmulator" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/ReverseEmulator.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/ReverseEmulator.php on line 8
+[23-Dec-2024 01:13:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Lexer\TokenEmulator\KeywordEmulator" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/ReadonlyTokenEmulator.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/ReadonlyTokenEmulator.php on line 7
+[23-Dec-2024 01:13:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Lexer\TokenEmulator\KeywordEmulator" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/ReadonlyFunctionTokenEmulator.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/ReadonlyFunctionTokenEmulator.php on line 14
+[23-Dec-2024 01:13:46 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Lexer\TokenEmulator\TokenEmulator" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/NumericLiteralSeparatorEmulator.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/NumericLiteralSeparatorEmulator.php on line 7
+[23-Dec-2024 01:13:50 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Lexer\TokenEmulator\TokenEmulator" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/NullsafeTokenEmulator.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/NullsafeTokenEmulator.php on line 7
+[23-Dec-2024 01:13:54 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Lexer\TokenEmulator\KeywordEmulator" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/MatchTokenEmulator.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/MatchTokenEmulator.php on line 7
+[23-Dec-2024 01:13:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Lexer\TokenEmulator\TokenEmulator" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/KeywordEmulator.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/KeywordEmulator.php on line 5
+[23-Dec-2024 01:14:02 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Lexer\TokenEmulator\KeywordEmulator" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/FnTokenEmulator.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/FnTokenEmulator.php on line 7
+[23-Dec-2024 01:14:06 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Lexer\TokenEmulator\TokenEmulator" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/FlexibleDocStringEmulator.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/FlexibleDocStringEmulator.php on line 7
+[23-Dec-2024 01:14:10 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Lexer\TokenEmulator\TokenEmulator" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/ExplicitOctalEmulator.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/ExplicitOctalEmulator.php on line 7
+[23-Dec-2024 01:14:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Lexer\TokenEmulator\KeywordEmulator" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/EnumTokenEmulator.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/EnumTokenEmulator.php on line 7
+[23-Dec-2024 01:14:19 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Lexer\TokenEmulator\TokenEmulator" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/CoaleseEqualTokenEmulator.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/CoaleseEqualTokenEmulator.php on line 7
+[23-Dec-2024 01:14:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Lexer\TokenEmulator\TokenEmulator" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/AttributeEmulator.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/AttributeEmulator.php on line 7

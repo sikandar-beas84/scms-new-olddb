@@ -1,0 +1,36 @@
+[23-Dec-2024 00:10:34 UTC] PHP Fatal error:  Uncaught Error: Class "GuzzleHttp\Exception\BadResponseException" not found in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Exception/ServerException.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Exception/ServerException.php on line 8
+[23-Dec-2024 00:10:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Psr\Http\Client\ClientExceptionInterface" not found in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Exception/GuzzleException.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Exception/GuzzleException.php on line 7
+[23-Dec-2024 00:10:43 UTC] PHP Fatal error:  Uncaught Error: Class "GuzzleHttp\Exception\BadResponseException" not found in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Exception/ClientException.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Exception/ClientException.php on line 8
+[23-Dec-2024 00:20:21 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Exception\GuzzleException" not found in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Exception/TransferException.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Exception/TransferException.php on line 5
+[23-Dec-2024 00:20:26 UTC] PHP Fatal error:  Uncaught Error: Class "GuzzleHttp\Exception\RequestException" not found in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Exception/TooManyRedirectsException.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Exception/TooManyRedirectsException.php on line 5
+[23-Dec-2024 00:20:30 UTC] PHP Fatal error:  Uncaught Error: Class "GuzzleHttp\Exception\TransferException" not found in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 15
+[23-Dec-2024 00:20:34 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Exception\GuzzleException" not found in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Exception/InvalidArgumentException.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Exception/InvalidArgumentException.php on line 5
+[23-Dec-2024 00:20:39 UTC] PHP Fatal error:  Uncaught Error: Class "GuzzleHttp\Exception\TransferException" not found in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Exception/ConnectException.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Exception/ConnectException.php on line 13
+[23-Dec-2024 00:20:42 UTC] PHP Fatal error:  Uncaught Error: Class "GuzzleHttp\Exception\RequestException" not found in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Exception/BadResponseException.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Exception/BadResponseException.php on line 11

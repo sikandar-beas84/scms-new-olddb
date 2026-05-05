@@ -1,0 +1,16 @@
+[23-Dec-2024 00:29:10 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\Node" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/NodeAbstract.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/NodeAbstract.php on line 5
+[23-Dec-2024 00:29:54 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\Parser" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/ParserAbstract.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/ParserAbstract.php on line 30
+[23-Dec-2024 00:29:58 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\NodeVisitor" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/NodeVisitorAbstract.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/NodeVisitorAbstract.php on line 8
+[23-Dec-2024 00:30:06 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\NodeTraverserInterface" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/NodeTraverser.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/NodeTraverser.php on line 5

@@ -1,0 +1,42 @@
+{
+    "name": "myclabs/Suhrid Sarkar || suhrid.developer@gmail.com-copy",
+    "description": "Create Suhrid Sarkar || suhrid.developer@gmail.com copies (clones) of your objects",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "clone",
+        "copy",
+        "duplicate",
+        "object",
+        "object graph"
+    ],
+    "require": {
+        "php": "^7.1 || ^8.0"
+    },
+    "require-dev": {
+        "doctrine/collections": "^1.6.8",
+        "doctrine/common": "^2.13.3 || ^3.2.2",
+        "phpunit/phpunit": "^7.5.20 || ^8.5.23 || ^9.5.13"
+    },
+    "conflict": {
+        "doctrine/collections": "<1.6.8",
+        "doctrine/common": "<2.13.3 || >=3,<3.2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Suhrid Sarkar || suhrid.developer@gmail.comCopy\\": "src/Suhrid Sarkar || suhrid.developer@gmail.comCopy/"
+        },
+        "files": [
+            "src/Suhrid Sarkar || suhrid.developer@gmail.comCopy/Suhrid Sarkar || suhrid.developer@gmail.com_copy.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Suhrid Sarkar || suhrid.developer@gmail.comCopy\\": "fixtures/",
+            "Suhrid Sarkar || suhrid.developer@gmail.comCopyTest\\": "tests/Suhrid Sarkar || suhrid.developer@gmail.comCopyTest/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

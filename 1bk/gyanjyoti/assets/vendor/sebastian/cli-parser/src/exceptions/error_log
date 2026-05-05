@@ -1,0 +1,16 @@
+[23-Dec-2024 00:23:34 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CliParser\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/cli-parser/src/exceptions/UnknownOptionException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/cli-parser/src/exceptions/UnknownOptionException.php on line 15
+[23-Dec-2024 00:23:38 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CliParser\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/cli-parser/src/exceptions/RequiredOptionArgumentMissingException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/cli-parser/src/exceptions/RequiredOptionArgumentMissingException.php on line 15
+[23-Dec-2024 00:23:46 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CliParser\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/cli-parser/src/exceptions/AmbiguousOptionException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/cli-parser/src/exceptions/AmbiguousOptionException.php on line 15
+[23-Dec-2024 00:32:10 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CliParser\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/cli-parser/src/exceptions/OptionDoesNotAllowArgumentException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/cli-parser/src/exceptions/OptionDoesNotAllowArgumentException.php on line 15

@@ -1,0 +1,12 @@
+[23-Dec-2024 00:24:22 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeUnit\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/code-unit/src/exceptions/ReflectionException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/code-unit/src/exceptions/ReflectionException.php on line 14
+[23-Dec-2024 00:24:26 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeUnit\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/code-unit/src/exceptions/NoTraitException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/code-unit/src/exceptions/NoTraitException.php on line 14
+[23-Dec-2024 00:24:30 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\CodeUnit\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/code-unit/src/exceptions/InvalidCodeUnitException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/code-unit/src/exceptions/InvalidCodeUnitException.php on line 14

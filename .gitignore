@@ -1,0 +1,5 @@
+/writable
+/vendor
+.env
+.htaccess
+/app/config

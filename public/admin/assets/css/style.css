@@ -1,0 +1,11 @@
+.error{
+	color: red;
+}
+.editBtn {
+	cursor: pointer;
+	color: blue
+}
+.deleteBtn {
+	cursor: pointer;
+	color: red;
+}

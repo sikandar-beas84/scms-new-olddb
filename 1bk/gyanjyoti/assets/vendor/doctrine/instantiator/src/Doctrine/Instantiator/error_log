@@ -1,0 +1,4 @@
+[23-Dec-2024 00:56:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Doctrine\Instantiator\InstantiatorInterface" not found in /home/gyanjyotipublics/public_html/assets/vendor/doctrine/instantiator/src/Doctrine/Instantiator/Instantiator.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/doctrine/instantiator/src/Doctrine/Instantiator/Instantiator.php on line 25

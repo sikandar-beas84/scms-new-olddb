@@ -1,0 +1,108 @@
+[23-Dec-2024 00:44:46 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/Warning.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/Warning.php on line 15
+[23-Dec-2024 00:44:50 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\RiskyTestError" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/UnintentionallyCoveredCodeError.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/UnintentionallyCoveredCodeError.php on line 15
+[23-Dec-2024 00:44:54 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\SyntheticError" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/SyntheticSkippedError.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/SyntheticSkippedError.php on line 15
+[23-Dec-2024 00:44:58 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\AssertionFailedError" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/SyntheticError.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/SyntheticError.php on line 15
+[23-Dec-2024 00:45:02 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\AssertionFailedError" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/SkippedTestSuiteError.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/SkippedTestSuiteError.php on line 15
+[23-Dec-2024 00:45:06 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\AssertionFailedError" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/SkippedTestError.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/SkippedTestError.php on line 15
+[23-Dec-2024 00:45:10 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\AssertionFailedError" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/RiskyTestError.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/RiskyTestError.php on line 15
+[23-Dec-2024 00:45:14 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\SyntheticError" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/PHPTAssertionFailedError.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/PHPTAssertionFailedError.php on line 15
+[23-Dec-2024 00:45:18 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\AssertionFailedError" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/OutputError.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/OutputError.php on line 15
+[23-Dec-2024 00:45:22 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/NoChildTestSuiteException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/NoChildTestSuiteException.php on line 15
+[23-Dec-2024 00:45:26 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\RiskyTestError" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/MissingCoversAnnotationException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/MissingCoversAnnotationException.php on line 15
+[23-Dec-2024 00:45:30 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/InvalidDataProviderException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/InvalidDataProviderException.php on line 15
+[23-Dec-2024 00:45:34 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\CodeCoverageException" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/InvalidCoversTargetException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/InvalidCoversTargetException.php on line 15
+[23-Dec-2024 00:45:38 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/InvalidArgumentException.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/InvalidArgumentException.php on line 20
+[23-Dec-2024 00:45:42 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\AssertionFailedError" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/IncompleteTestError.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/IncompleteTestError.php on line 15
+[23-Dec-2024 00:45:46 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\AssertionFailedError" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/ExpectationFailedException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/ExpectationFailedException.php on line 24
+[23-Dec-2024 00:45:50 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/Exception.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/Exception.php on line 40
+[23-Dec-2024 00:45:54 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/Error.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/Error.php on line 15
+[23-Dec-2024 00:45:58 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\RiskyTestError" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/CoveredCodeNotExecutedException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/CoveredCodeNotExecutedException.php on line 15
+[23-Dec-2024 00:46:02 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/ComparisonMethodDoesNotExistException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/ComparisonMethodDoesNotExistException.php on line 18
+[23-Dec-2024 00:46:06 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/CodeCoverageException.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/CodeCoverageException.php on line 15
+[23-Dec-2024 00:46:10 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/AssertionFailedError.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/AssertionFailedError.php on line 15
+[23-Dec-2024 00:46:14 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/ActualValueIsNotAnObjectException.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/ActualValueIsNotAnObjectException.php on line 17
+[23-Dec-2024 00:56:26 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/ComparisonMethodDoesNotDeclareParameterTypeException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/ComparisonMethodDoesNotDeclareParameterTypeException.php on line 18
+[23-Dec-2024 00:56:30 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/ComparisonMethodDoesNotDeclareExactlyOneParameterException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/ComparisonMethodDoesNotDeclareExactlyOneParameterException.php on line 18
+[23-Dec-2024 00:56:34 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/ComparisonMethodDoesNotDeclareBoolReturnTypeException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/ComparisonMethodDoesNotDeclareBoolReturnTypeException.php on line 18
+[23-Dec-2024 00:56:38 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/ComparisonMethodDoesNotAcceptParameterTypeException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Framework/Exception/ComparisonMethodDoesNotAcceptParameterTypeException.php on line 18

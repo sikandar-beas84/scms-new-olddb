@@ -1,0 +1,48 @@
+[23-Dec-2024 00:49:42 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Util\Printer" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/TestDox/XmlResultPrinter.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/TestDox/XmlResultPrinter.php on line 35
+[23-Dec-2024 00:49:46 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Util\TestDox\ResultPrinter" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/TestDox/TextResultPrinter.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/TestDox/TextResultPrinter.php on line 17
+[23-Dec-2024 00:49:50 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\TextUI\DefaultResultPrinter" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/TestDox/TestDoxPrinter.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/TestDox/TestDoxPrinter.php on line 34
+[23-Dec-2024 00:49:54 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Util\Printer" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/TestDox/ResultPrinter.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/TestDox/ResultPrinter.php on line 29
+[23-Dec-2024 00:50:02 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Util\TestDox\ResultPrinter" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/TestDox/HtmlResultPrinter.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/TestDox/HtmlResultPrinter.php on line 18
+[23-Dec-2024 00:50:06 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Util\TestDox\TestDoxPrinter" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/TestDox/CliTestDoxPrinter.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/TestDox/CliTestDoxPrinter.php on line 37
+[18-Jan-2025 10:29:21 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Util\TestDox\TestDoxPrinter" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/TestDox/CliTestDoxPrinter.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/TestDox/CliTestDoxPrinter.php on line 37
+[18-Jan-2025 10:31:47 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\TextUI\DefaultResultPrinter" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/TestDox/TestDoxPrinter.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/TestDox/TestDoxPrinter.php on line 34
+[18-Jan-2025 10:32:22 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Util\Printer" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/TestDox/XmlResultPrinter.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/TestDox/XmlResultPrinter.php on line 35
+[18-Jan-2025 10:33:22 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Util\Printer" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/TestDox/ResultPrinter.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/TestDox/ResultPrinter.php on line 29
+[18-Jan-2025 10:34:22 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Util\TestDox\ResultPrinter" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/TestDox/HtmlResultPrinter.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/TestDox/HtmlResultPrinter.php on line 18
+[18-Jan-2025 10:35:20 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Util\TestDox\ResultPrinter" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/TestDox/TextResultPrinter.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/TestDox/TextResultPrinter.php on line 17

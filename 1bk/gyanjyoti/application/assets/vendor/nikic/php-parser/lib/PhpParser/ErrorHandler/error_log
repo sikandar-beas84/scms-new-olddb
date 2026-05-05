@@ -1,0 +1,8 @@
+[23-Dec-2024 00:51:30 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\ErrorHandler" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/ErrorHandler/Throwing.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/ErrorHandler/Throwing.php on line 13
+[23-Dec-2024 00:51:35 UTC] PHP Fatal error:  Uncaught Error: Interface "PhpParser\ErrorHandler" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/ErrorHandler/Collecting.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/ErrorHandler/Collecting.php on line 13

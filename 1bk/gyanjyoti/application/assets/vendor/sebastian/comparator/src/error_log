@@ -1,0 +1,48 @@
+[22-Dec-2024 23:53:46 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Comparator\Comparator" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/comparator/src/TypeComparator.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/comparator/src/TypeComparator.php on line 18
+[22-Dec-2024 23:53:51 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Comparator\Comparator" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/comparator/src/ScalarComparator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/comparator/src/ScalarComparator.php on line 23
+[22-Dec-2024 23:53:54 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Comparator\Comparator" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/comparator/src/ResourceComparator.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/comparator/src/ResourceComparator.php on line 17
+[22-Dec-2024 23:53:58 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Comparator\ArrayComparator" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/comparator/src/ObjectComparator.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/comparator/src/ObjectComparator.php on line 21
+[22-Dec-2024 23:54:02 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Comparator\ScalarComparator" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/comparator/src/NumericComparator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/comparator/src/NumericComparator.php on line 23
+[22-Dec-2024 23:54:06 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Comparator\NumericComparator" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/comparator/src/DoubleComparator.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/comparator/src/DoubleComparator.php on line 20
+[22-Dec-2024 23:54:10 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Comparator\ObjectComparator" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/comparator/src/DateTimeComparator.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/comparator/src/DateTimeComparator.php on line 24
+[22-Dec-2024 23:54:14 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Comparator\ObjectComparator" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/comparator/src/DOMNodeComparator.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/comparator/src/DOMNodeComparator.php on line 21
+[22-Dec-2024 23:54:26 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Comparator\Comparator" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/comparator/src/ArrayComparator.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/comparator/src/ArrayComparator.php on line 26
+[22-Dec-2024 23:54:30 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Comparator\Comparator" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/comparator/src/SplObjectStorageComparator.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/comparator/src/SplObjectStorageComparator.php on line 17
+[22-Dec-2024 23:54:34 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Comparator\ObjectComparator" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/comparator/src/MockObjectComparator.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/comparator/src/MockObjectComparator.php on line 17
+[22-Dec-2024 23:54:39 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Comparator\ObjectComparator" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/comparator/src/ExceptionComparator.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/comparator/src/ExceptionComparator.php on line 17

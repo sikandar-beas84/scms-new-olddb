@@ -1,0 +1,188 @@
+[23-Dec-2024 01:14:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/While_.php on line 7
+[23-Dec-2024 01:14:34 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Use_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Use_.php on line 7
+[23-Dec-2024 01:14:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/UseUse.php on line 8
+[23-Dec-2024 01:14:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Unset_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Unset_.php on line 7
+[23-Dec-2024 01:14:46 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TryCatch.php on line 7
+[23-Dec-2024 01:14:50 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Trait_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Trait_.php on line 7
+[23-Dec-2024 01:14:54 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUseAdaptation.php on line 7
+[23-Dec-2024 01:14:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUse.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/TraitUse.php on line 7
+[23-Dec-2024 01:15:02 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Throw_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Throw_.php on line 7
+[23-Dec-2024 01:15:06 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Switch_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Switch_.php on line 7
+[23-Dec-2024 01:15:10 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Static_.php on line 7
+[23-Dec-2024 01:15:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/StaticVar.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/StaticVar.php on line 8
+[23-Dec-2024 01:15:18 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Return_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Return_.php on line 7
+[23-Dec-2024 01:15:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/PropertyProperty.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/PropertyProperty.php on line 7
+[23-Dec-2024 01:15:26 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Property.php on line 10
+[23-Dec-2024 01:15:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Nop.php on line 8
+[23-Dec-2024 01:15:34 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Namespace_.php on line 7
+[23-Dec-2024 01:15:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Label.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Label.php on line 8
+[23-Dec-2024 01:15:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Interface_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Interface_.php on line 7
+[23-Dec-2024 01:15:46 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/InlineHTML.php on line 7
+[23-Dec-2024 01:15:50 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/If_.php on line 7
+[23-Dec-2024 01:15:54 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/HaltCompiler.php on line 7
+[23-Dec-2024 01:15:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/GroupUse.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/GroupUse.php on line 8
+[23-Dec-2024 01:16:02 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Goto_.php on line 8
+[23-Dec-2024 01:16:06 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Global_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Global_.php on line 7
+[23-Dec-2024 01:16:10 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Function_.php on line 8
+[23-Dec-2024 01:16:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Foreach_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Foreach_.php on line 7
+[23-Dec-2024 01:16:18 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/For_.php on line 7
+[23-Dec-2024 01:16:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Finally_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Finally_.php on line 7
+[23-Dec-2024 01:16:26 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Expression.php on line 10
+[23-Dec-2024 01:16:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Enum_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Enum_.php on line 7
+[23-Dec-2024 01:16:34 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/EnumCase.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/EnumCase.php on line 8
+[23-Dec-2024 01:16:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Else_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Else_.php on line 7
+[23-Dec-2024 01:16:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ElseIf_.php on line 7
+[23-Dec-2024 01:16:46 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Echo_.php on line 7
+[23-Dec-2024 01:16:50 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Do_.php on line 7
+[23-Dec-2024 01:16:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/DeclareDeclare.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/DeclareDeclare.php on line 7
+[23-Dec-2024 01:16:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Declare_.php on line 7
+[23-Dec-2024 01:17:02 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Continue_.php on line 7
+[23-Dec-2024 01:17:06 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Const_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Const_.php on line 7
+[23-Dec-2024 01:17:10 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt\ClassLike" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Class_.php on line 8
+[23-Dec-2024 01:17:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassMethod.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassMethod.php on line 8
+[23-Dec-2024 01:17:18 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassLike.php on line 7
+[23-Dec-2024 01:17:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassConst.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/ClassConst.php on line 7
+[23-Dec-2024 01:17:26 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Catch_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Catch_.php on line 8
+[23-Dec-2024 01:17:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Case_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Case_.php on line 7
+[23-Dec-2024 01:17:34 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Stmt" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Stmt/Break_.php on line 7

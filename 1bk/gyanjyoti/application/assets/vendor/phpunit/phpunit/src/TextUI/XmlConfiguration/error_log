@@ -1,0 +1,4 @@
+[23-Dec-2024 00:48:06 UTC] PHP Fatal error:  Uncaught Error: Interface "PHPUnit\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Exception.php on line 17

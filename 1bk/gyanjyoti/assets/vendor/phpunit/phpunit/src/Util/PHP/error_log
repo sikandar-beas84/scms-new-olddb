@@ -1,0 +1,8 @@
+[23-Dec-2024 00:49:30 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Util\PHP\DefaultPhpProcess" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/PHP/WindowsPhpProcess.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/PHP/WindowsPhpProcess.php on line 21
+[23-Dec-2024 00:49:34 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Util\PHP\AbstractPhpProcess" not found in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/PHP/DefaultPhpProcess.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phpunit/phpunit/src/Util/PHP/DefaultPhpProcess.php on line 34

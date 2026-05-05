@@ -1,0 +1,36 @@
+[23-Dec-2024 00:21:18 UTC] PHP Fatal error:  Uncaught Error: Interface "PharIo\Manifest\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/exceptions/ManifestLoaderException.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/exceptions/ManifestLoaderException.php on line 4
+[23-Dec-2024 00:21:22 UTC] PHP Fatal error:  Uncaught Error: Interface "PharIo\Manifest\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/exceptions/ManifestElementException.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/exceptions/ManifestElementException.php on line 4
+[23-Dec-2024 00:21:26 UTC] PHP Fatal error:  Uncaught Error: Interface "PharIo\Manifest\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/exceptions/ManifestDocumentMapperException.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/exceptions/ManifestDocumentMapperException.php on line 4
+[23-Dec-2024 00:21:30 UTC] PHP Fatal error:  Uncaught Error: Interface "PharIo\Manifest\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/exceptions/ManifestDocumentLoadingException.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/exceptions/ManifestDocumentLoadingException.php on line 14
+[23-Dec-2024 00:21:34 UTC] PHP Fatal error:  Uncaught Error: Interface "PharIo\Manifest\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/exceptions/ManifestDocumentException.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/exceptions/ManifestDocumentException.php on line 4
+[23-Dec-2024 00:21:38 UTC] PHP Fatal error:  Uncaught Error: Interface "PharIo\Manifest\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/exceptions/InvalidUrlException.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/exceptions/InvalidUrlException.php on line 12
+[23-Dec-2024 00:21:42 UTC] PHP Fatal error:  Uncaught Error: Interface "PharIo\Manifest\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/exceptions/InvalidEmailException.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/exceptions/InvalidEmailException.php on line 12
+[23-Dec-2024 00:21:46 UTC] PHP Fatal error:  Uncaught Error: Interface "PharIo\Manifest\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/exceptions/InvalidApplicationNameException.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/exceptions/InvalidApplicationNameException.php on line 12
+[23-Dec-2024 00:21:50 UTC] PHP Fatal error:  Uncaught Error: Interface "PharIo\Manifest\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/exceptions/ElementCollectionException.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/exceptions/ElementCollectionException.php on line 12

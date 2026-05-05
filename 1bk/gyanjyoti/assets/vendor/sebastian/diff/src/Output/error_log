@@ -1,0 +1,16 @@
+[23-Dec-2024 00:16:02 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\Diff\Output\DiffOutputBuilderInterface" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/diff/src/Output/DiffOnlyOutputBuilder.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/diff/src/Output/DiffOnlyOutputBuilder.php on line 23
+[23-Dec-2024 00:17:06 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Diff\Output\AbstractChunkOutputBuilder" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/diff/src/Output/UnifiedDiffOutputBuilder.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/diff/src/Output/UnifiedDiffOutputBuilder.php on line 27
+[23-Dec-2024 00:17:10 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\Diff\Output\DiffOutputBuilderInterface" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/diff/src/Output/StrictUnifiedDiffOutputBuilder.php on line 34
+[23-Dec-2024 00:17:18 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\Diff\Output\DiffOutputBuilderInterface" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/diff/src/Output/AbstractChunkOutputBuilder.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/diff/src/Output/AbstractChunkOutputBuilder.php on line 14

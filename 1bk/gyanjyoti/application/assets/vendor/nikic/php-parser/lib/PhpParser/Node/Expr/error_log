@@ -1,0 +1,192 @@
+[23-Dec-2024 01:18:23 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Yield_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Yield_.php on line 7
+[23-Dec-2024 01:18:26 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/YieldFrom.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/YieldFrom.php on line 7
+[23-Dec-2024 01:18:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Variable.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Variable.php on line 7
+[23-Dec-2024 01:18:34 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/UnaryPlus.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/UnaryPlus.php on line 7
+[23-Dec-2024 01:18:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/UnaryMinus.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/UnaryMinus.php on line 7
+[23-Dec-2024 01:18:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Throw_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Throw_.php on line 7
+[23-Dec-2024 01:18:46 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Ternary.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Ternary.php on line 7
+[23-Dec-2024 01:18:50 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/StaticPropertyFetch.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/StaticPropertyFetch.php on line 9
+[23-Dec-2024 01:18:54 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr\CallLike" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/StaticCall.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/StaticCall.php on line 11
+[23-Dec-2024 01:18:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ShellExec.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ShellExec.php on line 7
+[23-Dec-2024 01:19:02 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/PropertyFetch.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/PropertyFetch.php on line 8
+[23-Dec-2024 01:19:06 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Print_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Print_.php on line 7
+[23-Dec-2024 01:19:10 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/PreInc.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/PreInc.php on line 7
+[23-Dec-2024 01:19:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/PreDec.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/PreDec.php on line 7
+[23-Dec-2024 01:19:18 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/PostInc.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/PostInc.php on line 7
+[23-Dec-2024 01:19:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/PostDec.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/PostDec.php on line 7
+[23-Dec-2024 01:19:26 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/NullsafePropertyFetch.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/NullsafePropertyFetch.php on line 8
+[23-Dec-2024 01:19:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr\CallLike" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/NullsafeMethodCall.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/NullsafeMethodCall.php on line 10
+[23-Dec-2024 01:19:34 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr\CallLike" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/New_.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/New_.php on line 10
+[23-Dec-2024 01:19:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr\CallLike" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/MethodCall.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/MethodCall.php on line 10
+[23-Dec-2024 01:19:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Match_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Match_.php on line 8
+[23-Dec-2024 01:19:46 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/List_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/List_.php on line 7
+[23-Dec-2024 01:19:50 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Isset_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Isset_.php on line 7
+[23-Dec-2024 01:19:54 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Instanceof_.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Instanceof_.php on line 8
+[23-Dec-2024 01:19:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Include_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Include_.php on line 7
+[23-Dec-2024 01:20:02 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr\CallLike" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/FuncCall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/FuncCall.php on line 8
+[23-Dec-2024 01:20:06 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Exit_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Exit_.php on line 7
+[23-Dec-2024 01:20:10 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Eval_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Eval_.php on line 7
+[23-Dec-2024 01:20:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ErrorSuppress.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ErrorSuppress.php on line 7
+[23-Dec-2024 01:20:18 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Error.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Error.php on line 13
+[23-Dec-2024 01:20:25 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Empty_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Empty_.php on line 7
+[23-Dec-2024 01:20:26 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ConstFetch.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ConstFetch.php on line 8
+[23-Dec-2024 01:20:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ClosureUse.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ClosureUse.php on line 7
+[23-Dec-2024 01:20:34 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Closure.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Closure.php on line 9
+[23-Dec-2024 01:20:38 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Clone_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Clone_.php on line 7
+[23-Dec-2024 01:20:42 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ClassConstFetch.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ClassConstFetch.php on line 9
+[23-Dec-2024 01:20:46 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Cast.php on line 7
+[23-Dec-2024 01:20:50 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/CallLike.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/CallLike.php on line 9
+[23-Dec-2024 01:20:54 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BooleanNot.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BooleanNot.php on line 7
+[23-Dec-2024 01:20:58 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BitwiseNot.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BitwiseNot.php on line 7
+[23-Dec-2024 01:21:02 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/BinaryOp.php on line 7
+[23-Dec-2024 01:21:06 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/AssignRef.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/AssignRef.php on line 7
+[23-Dec-2024 01:21:10 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/AssignOp.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/AssignOp.php on line 7
+[23-Dec-2024 01:21:14 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Assign.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Assign.php on line 7
+[23-Dec-2024 01:21:18 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ArrowFunction.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ArrowFunction.php on line 9
+[23-Dec-2024 01:21:22 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Array_.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/Array_.php on line 7
+[23-Dec-2024 01:21:26 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ArrayItem.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ArrayItem.php on line 7
+[23-Dec-2024 01:21:30 UTC] PHP Fatal error:  Uncaught Error: Class "PhpParser\Node\Expr" not found in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ArrayDimFetch.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/ArrayDimFetch.php on line 7

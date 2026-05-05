@@ -1,0 +1,8 @@
+[23-Dec-2024 00:16:58 UTC] PHP Fatal error:  Uncaught Error: Interface "SebastianBergmann\Diff\Exception" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/diff/src/Exception/InvalidArgumentException.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/diff/src/Exception/InvalidArgumentException.php on line 12
+[23-Dec-2024 00:17:02 UTC] PHP Fatal error:  Uncaught Error: Class "SebastianBergmann\Diff\InvalidArgumentException" not found in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/diff/src/Exception/ConfigurationException.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/sebastian/diff/src/Exception/ConfigurationException.php on line 18

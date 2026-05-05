@@ -1,0 +1,18 @@
+[22-Dec-2024 23:58:10 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Promise\PromisorInterface" not found in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Pool.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Pool.php on line 24
+[22-Dec-2024 23:58:22 UTC] PHP Fatal error:  Trait "GuzzleHttp\ClientTrait" not found in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Client.php on line 17
+[22-Dec-2024 23:58:46 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\MessageFormatterInterface" not found in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/MessageFormatter.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/MessageFormatter.php on line 38
+[22-Dec-2024 23:58:50 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\BodySummarizerInterface" not found in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/BodySummarizer.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/BodySummarizer.php on line 7
+[18-Jan-2025 03:49:18 UTC] PHP Fatal error:  Uncaught Error: Interface "GuzzleHttp\Promise\PromisorInterface" not found in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Pool.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Pool.php on line 24
+[18-Jan-2025 03:50:47 UTC] PHP Fatal error:  Trait "GuzzleHttp\ClientTrait" not found in /home/gyanjyotipublics/public_html/assets/vendor/guzzlehttp/guzzle/src/Client.php on line 17

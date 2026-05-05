@@ -1,0 +1,52 @@
+[23-Dec-2024 00:26:50 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ManifestElement" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/RequiresElement.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/RequiresElement.php on line 12
+[23-Dec-2024 00:26:54 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ManifestElement" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/PhpElement.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/PhpElement.php on line 12
+[23-Dec-2024 00:27:06 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ManifestElement" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/LicenseElement.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/LicenseElement.php on line 12
+[23-Dec-2024 00:27:10 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ManifestElement" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/ExtensionElement.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/ExtensionElement.php on line 12
+[23-Dec-2024 00:27:14 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ManifestElement" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/ExtElement.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/ExtElement.php on line 12
+[23-Dec-2024 00:27:22 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ManifestElement" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/CopyrightElement.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/CopyrightElement.php on line 12
+[23-Dec-2024 00:27:26 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ManifestElement" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/ContainsElement.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/ContainsElement.php on line 12
+[23-Dec-2024 00:27:30 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ManifestElement" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/ComponentElement.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/ComponentElement.php on line 12
+[23-Dec-2024 00:27:34 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ManifestElement" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/BundlesElement.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/BundlesElement.php on line 12
+[23-Dec-2024 00:27:38 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ManifestElement" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/AuthorElement.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/AuthorElement.php on line 12
+[23-Dec-2024 00:27:42 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ElementCollection" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/ExtElementCollection.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/ExtElementCollection.php on line 12
+[23-Dec-2024 00:27:46 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ElementCollection" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/ComponentElementCollection.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/ComponentElementCollection.php on line 12
+[23-Dec-2024 00:27:50 UTC] PHP Fatal error:  Uncaught Error: Class "PharIo\Manifest\ElementCollection" not found in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/AuthorElementCollection.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gyanjyotipublics/public_html/assets/vendor/phar-io/manifest/src/xml/AuthorElementCollection.php on line 12

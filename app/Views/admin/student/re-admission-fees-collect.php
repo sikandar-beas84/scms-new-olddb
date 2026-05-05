@@ -1,0 +1,1210 @@
+<!-- SweetAlert2 -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+<style>
+    .item-row {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #ddd;
+        padding: 8px 0;
+        gap: 10px;
+    }
+    .item-row div {
+        flex: 1;
+    }
+    .item-header {
+        font-weight: bold;
+        background: #f3f3f3;
+        padding: 10px 0;
+        border-bottom: 2px solid #ccc;
+        display: flex;
+        gap: 10px;
+        text-align: center;
+    }
+    .item-header div {
+        flex: 1;
+    }
+    input[type="number"], input[type="text"] {
+        width: 100%;
+        padding: 6px;
+    }
+</style>
+
+<?php 
+$ad_payment_status = $form_details['ad_payment_status'] ?? 0;
+$bus_payment_status = $form_details['bus_payment_status'] ?? 0;
+?>
+<!-- Page header -->
+<div class="page-header page-header-primary shadow">
+	<div class="page-header-content d-lg-flex border-top">
+		<div class="d-flex">
+			<div class="breadcrumb py-2">
+				<a href="<?= base_url('dashboard') ?>" class="breadcrumb-item"><i class="ph-house"></i></a>
+				<a href="javascript:;" class="breadcrumb-item"><?= $title ?></a>
+			</div>
+
+			<a href="#breadcrumb_elements" class="btn btn-light align-self-center collapsed d-lg-none border-transparent rounded-pill p-0 ms-auto" data-bs-toggle="collapse">
+				<i class="ph-caret-down collapsible-indicator ph-sm m-1"></i>
+			</a>
+		</div>		
+	</div>
+</div>
+<!-- /page header -->
+
+<div class="content">
+    <!-- Input fields -->
+    <div class="card">
+        <div class="card-header">
+            <h5 class="mb-0">Collect Re Admission Fee</h5>
+        </div>
+        <?php if(!empty($form_details)){ ?>
+	        <div class="card-body">
+	            <p class="mb-4"></p>
+	            
+	            <?php if(isset($dept_id) && $dept_id == 1 ) : ?>
+	            	<div class="mb-4">
+		                <div class="fw-bold border-bottom pb-2 mb-3"><i class="ph-bus ms-2"></i> Select Stoppage of transport required</div>
+		                <form role="form" class="update_form" action="javascript:" id="stu_update" enctype="multipart/form-data" autocomplete="off">
+			                <div class="row mb-3">
+			                    <label class="col-form-label col-lg-3">Stoppage</label>
+			                    <div class="col-lg-6">
+			                        <select class="form-select" name="stoppage" id="stoppage">
+			                        	<option value="0">--Select Stopage--</option>
+			                        	<?php foreach($stoppage_list as $stoppage): ?>
+			                        		<option value="<?= $stoppage['stoppage_id'] ?>" <?= ($form_details['stoppage'] == $stoppage['stoppage_id'] ? 'selected':'' ) ?>><?= $stoppage['stoppage_name'] ?> - &#8377; <?php echo stoppage_fee_by_id($stoppage['stoppage_id']) ?></option>
+		                        		<?php endforeach; ?>
+			                        </select>
+			                    </div>
+			                </div>
+			                <div class="row mb-3">
+			                    <label class="col-form-label col-lg-3">Chose Bus</label>
+			                    <div class="col-lg-6">
+			                        <select class="form-select" name="bus_id" id="bus_id">
+			                        	<option value="0">--Select Bus--</option>
+			                        	<?php foreach($bus_list as $bus): ?>
+			                        		<option value="<?= $bus['bus_id'] ?>"  <?= ($form_details['bus_id'] == $bus['bus_id'] ? 'selected':'' ) ?>><?= $bus['bus_licence_no'] ?></option>
+		                        		<?php endforeach; ?>
+			                        </select>
+			                    </div>
+			                </div>
+			                <div class="row mb-3">
+			                	<div class="col-lg-3"></div>
+			                	<div class="col-lg-6">
+			                		<button id="stoppageFormSubmit" type="button" class="btn btn-primary">Update <i class="ph-paper-plane-tilt ms-2"></i></button>
+			                		<?php if( isset($form_details['bus_id']) && $form_details['bus_id'] > 0 && $bus_payment_status != 1 ) { ?>
+			                			<button id="stoppageFormCancelSubmit" type="button" class="btn btn-danger">Cancel Bus Assignment <i class="ph-paper-plane-tilt ms-2"></i></button>
+			                		<?php } ?>
+			                	</div>
+			                	<span class="msg"></span>
+			                </div>
+		               	</form>
+	                </div>
+
+	            	<div class="mb-4">
+		                <div class="fw-bold border-bottom pb-2 mb-3"><i class="ph-tree-structure ms-2"></i> Assign Section to Student</div>
+		                <form role="form" class="update_sec_form" action="javascript:" id="stu_sec_update" enctype="multipart/form-data" autocomplete="off">
+			                <div class="row mb-3">
+			                    <label class="col-form-label col-lg-3">Chose Section</label>
+			                    <div class="col-lg-6">
+			                        <select class="form-select" name="section_id" id="section_id">
+			                        	<option value="0">--Select Section--</option>
+			                        	<?php foreach($section_list as $section): ?>
+			                        		<option value="<?= $section['id'] ?>" <?= ($form_details['section_id'] == $section['id'] ? 'selected':'' ) ?>><?= $section['section_name'] ?></option>
+		                        		<?php endforeach; ?>
+			                        </select>
+			                    </div>
+			                </div>
+			                <div class="row mb-3">
+			                	<div class="col-lg-3"></div>
+			                	<div class="col-lg-6">
+			                		<button type="button" class="btn btn-info" id="submit_section">Update Section <i class="ph-paper-plane-tilt ms-2"></i></button>
+			                	</div>
+			                </div>
+		               	</form>
+	                </div>
+	            <?php endif; ?>
+
+	            <div class="mb-4">
+	                <div class="fw-bold border-bottom pb-2 mb-3"><i class="ph-money ms-2"></i> Admission Payment</div>
+	                <form method="post" id="reAdmissionPaymentArea">
+	                	<?php 
+	                	$allowedUsers = [9583, 9584, 9585];
+						$readonly = in_array(session()->get('user_id'), $allowedUsers) ? '' : 'readonly';
+	                	?>
+
+	                	<div class="row">
+		                	<div class="col-lg-6">
+								<div class="list-group list-group-sm list-group-borderless">
+									<div class="row mb-2">
+										<div class="col-lg-6"><i class="ph-file-text me-2"></i> Admission Fee(ONE Time)New Student Rs.</div>
+										<div class="col-lg-3"><input type="number" min="0" class="form-control fees_area_js" name="admission_fee" id="admission_fee" value="<?= $form_details['admission_fee'] ?>" <?= $readonly ?> /></div>
+										<div class="col-lg-3" id="admission_fee_level">₹<?= $form_details['admission_fee'] ?></div>
+									</div>
+									<div class="row mb-2">
+										<div class="col-lg-6"><i class="ph-file-text me-2"></i> Development Fee (YEARLY) Rs.</div>
+										<div class="col-lg-3"><input type="number" min="0" class="form-control fees_area_js" name="development_fee" id="development_fee" value="<?= $form_details['development_fee'] ?>" <?= $readonly ?> /></div>
+										<div class="col-lg-3" id="development_fee_level">₹<?= $form_details['development_fee'] ?></div>
+									</div>
+									<div class="row mb-2">
+										<div class="col-lg-6"><i class="ph-file-text me-2"></i> Exam Fee (YEARLY) Rs.</div>
+										<div class="col-lg-3"><input type="number" min="0" class="form-control fees_area_js" name="exam_fee" id="exam_fee" value="<?= $form_details['exam_fee'] ?>" <?= $readonly ?> /></div>
+										<div class="col-lg-3" id="exam_fee_level">₹<?= $form_details['exam_fee'] ?></div>
+									</div>
+									<div class="row mb-2">
+										<div class="col-lg-6"><i class="ph-file-text me-2"></i> Festival Celebration Fee (YEARLY) Rs.</div>
+										<div class="col-lg-3"><input type="number" min="0" class="form-control fees_area_js" name="festival_celebration_fee" id="festival_celebration_fee" value="<?= $form_details['festival_celebration_fee'] ?>" <?= $readonly ?> /></div>
+										<div class="col-lg-3" id="festival_celebration_fee_level">₹<?= $form_details['festival_celebration_fee'] ?></div>
+									</div>
+									<div class="row mb-2">
+										<div class="col-lg-6"><i class="ph-file-text me-2"></i> Games Sports Fee (YEARLY) Rs.</div>
+										<div class="col-lg-3"><input type="number" min="0" class="form-control fees_area_js" name="games_sports_fee" id="games_sports_fee" value="<?= $form_details['games_sports_fee'] ?>" <?= $readonly ?> /></div>
+										<div class="col-lg-3" id="games_sports_fee_level">₹<?= $form_details['games_sports_fee'] ?></div>
+									</div>
+									<div class="row mb-2">
+										<div class="col-lg-6"><i class="ph-file-text me-2"></i> Audio Visual Lab Fee (YEARLY) Rs.</div>
+										<div class="col-lg-3"><input type="number" min="0" class="form-control fees_area_js" name="audio_visual_lab_fee" id="audio_visual_lab_fee" value="<?= $form_details['audio_visual_lab_fee'] ?>" <?= $readonly ?> /></div>
+										<div class="col-lg-3" id="audio_visual_lab_fee_level">₹<?= $form_details['audio_visual_lab_fee'] ?></div>
+									</div>
+									<div class="row mb-2">
+										<div class="col-lg-6"><i class="ph-file-text me-2"></i> Library Fee (YEARLY) Rs.</div>
+										<div class="col-lg-3"><input type="number" min="0" class="form-control fees_area_js" name="library_fee" id="library_fee" value="<?= $form_details['library_fee'] ?>" <?= $readonly ?> /></div>
+										<div class="col-lg-3" id="library_fee_level">₹<?= $form_details['library_fee'] ?></div>
+									</div>
+									<div class="row mb-2">
+										<div class="col-lg-6"><i class="ph-file-text me-2"></i> Electricity Maintenance Fee (YEARLY) Rs.</div>
+										<div class="col-lg-3"><input type="number" min="0" class="form-control fees_area_js" name="electricity_maintenance_fee" id="electricity_maintenance_fee" value="<?= $form_details['electricity_maintenance_fee'] ?>" <?= $readonly ?> /></div>
+										<div class="col-lg-3" id="electricity_maintenance_fee_level">₹<?= $form_details['electricity_maintenance_fee'] ?></div>
+									</div>
+									<div class="row mb-2">
+										<div class="col-lg-6"><i class="ph-file-text me-2"></i> Computer Fee (YEARLY) Rs.</div>
+										<div class="col-lg-3"><input type="number" min="0" class="form-control fees_area_js" name="computer_fee" id="computer_fee" value="<?= $form_details['computer_fee'] ?>" <?= $readonly ?> /></div>
+										<div class="col-lg-3" id="computer_fee_level">₹<?= $form_details['computer_fee'] ?></div>
+									</div>
+									<div class="row mb-2">
+										<div class="col-lg-6"><i class="ph-file-text me-2"></i> Security Deposit (REFUNDABLE) New Student Rs.</div>
+										<div class="col-lg-3"><input type="number" min="0" class="form-control fees_area_js" name="security_deposite" id="security_deposite" value="<?= $form_details['security_deposite'] ?>" <?= $readonly ?> /></div>
+										<div class="col-lg-3" id="security_deposite_level">₹<?= $form_details['security_deposite'] ?></div>
+									</div>
+									<div class="row mb-2">
+										<?php 
+										$get_tuition_fee = $form_details['tuition_fee'];
+										if( isset($academic_status) && $academic_status == "Free" ) {
+											$get_tuition_fee = 0;
+										} ?>
+										<div class="col-lg-6"><i class="ph-file-text me-2"></i> Tuition Fee (MONTHLY) Rs.</div>
+										<div class="col-lg-3"><input type="number" min="0" class="form-control fees_area_js" name="tuition_fee" id="tuition_fee" value="<?= $get_tuition_fee ?>" <?= $readonly ?> /></div>
+										<div class="col-lg-3" id="tuition_fee_level">₹<?= $get_tuition_fee ?></div>
+									</div>
+									<div class="row mt-3">
+									    <div class="col-lg-9 text-end">
+									        <strong>Total Fees:</strong>
+									    </div>
+									    <div class="col-lg-3">
+									        <strong id="grand_total_amount">₹0</strong>
+									    </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="list-group list-group-sm list-group-borderless">
+									<div class="row mb-2">
+										<div class="col-12 col-md-12">
+											<div class="row mb-2">
+												<div class="col-lg-6"><h6>Total Stationary Fee Rs.</h6></div>
+												<hr>
+											</div>
+
+											<div class="item-header">
+											    <div>#</div>
+											    <div>Name</div>
+											    <div>Qty</div>
+											    <div>Price</div>
+											    <div>Total</div>
+											    <div>Select</div>
+											</div>
+
+											<div id="itemContainer">
+											    <?php 
+											    if(isset($stationary_item_list) && !empty($stationary_item_list)) {
+											        $i = 1;
+											        foreach ($stationary_item_list as $row) {
+											            $total = $row['qty'] * $row['price'];
+											            $getChecked = 'checked';
+											            if( $i > 8 ) {
+											            	$getChecked = '';
+											            }
+											            ?>
+
+											            <div class="item-row  item-row-stationary">
+											                <div><?= $i ?></div>
+											                <div class="item_name_text"><?= $row['item_name'] ?></div>
+
+											                <input type="hidden" class="item_id" value="<?= $row['id'] ?>">
+
+											                <div>
+											                    <input type="number" class="item_qty" value="<?= $row['qty'] ?>" min="1">
+											                </div>
+
+											                <div>
+											                    <input type="number" class="item_price" value="<?= $row['price'] ?>" min="1">
+											                </div>
+
+											                <div>
+											                    <input type="text" class="item_total" value="<?= $total ?>" readonly>
+											                </div>
+
+											                <div style="text-align:center;">
+											                    <input type="checkbox" class="item_check" <?= $getChecked ?>>
+											                </div>
+											            </div>
+
+											            <?php
+											            $i++;
+											        }
+											    }
+											    ?>
+											</div>
+											<div class="row mt-3">
+											    <div class="col-lg-11 text-end">
+											        <strong>Stationary Total Fee:</strong>
+											    </div>
+											    <div class="col-lg-1">
+											        <strong id="grandTotal">₹0</strong>
+											    </div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-12">
+							<div class="list-group list-group-sm list-group-borderless">
+								<div class="row mb-2">
+									<!-- ===================================== -->
+									<!-- <div class="col-12 col-md-6">
+										<div class="row mb-2">
+											<div class="col-lg-6"><h6>Total Stationary Fee Rs.</h6></div>
+											<hr>
+										</div>
+
+										<div class="item-header">
+										    <div>#</div>
+										    <div>Name</div>
+										    <div>Qty</div>
+										    <div>Price</div>
+										    <div>Total</div>
+										    <div>Select</div>
+										</div>
+
+										<div id="itemContainer">
+										    <?php 
+										    if(isset($stationary_item_list) && !empty($stationary_item_list)) {
+										        $i = 1;
+										        foreach ($stationary_item_list as $row) {
+										            $total = $row['qty'] * $row['price'];
+										            $getChecked = 'checked';
+										            if( $i > 7 ) {
+										            	$getChecked = '';
+										            }
+										            ?>
+
+										            <div class="item-row  item-row-stationary">
+										                <div><?= $i ?></div>
+										                <div class="item_name_text"><?= $row['item_name'] ?></div>
+
+										                <input type="hidden" class="item_id" value="<?= $row['id'] ?>">
+
+										                <div>
+										                    <input type="number" class="item_qty" value="<?= $row['qty'] ?>" min="1">
+										                </div>
+
+										                <div>
+										                    <input type="number" class="item_price" value="<?= $row['price'] ?>" min="1">
+										                </div>
+
+										                <div>
+										                    <input type="text" class="item_total" value="<?= $total ?>" readonly>
+										                </div>
+
+										                <div style="text-align:center;">
+										                    <input type="checkbox" class="item_check" <?= $getChecked ?>>
+										                </div>
+										            </div>
+
+										            <?php
+										            $i++;
+										        }
+										    }
+										    ?>
+										</div>
+										<div class="row mt-3">
+										    <div class="col-lg-9 text-end">
+										        <strong>Stationary Total Fee:</strong>
+										    </div>
+										    <div class="col-lg-3">
+										        <strong id="grandTotal">₹0</strong>
+										    </div>
+										</div>
+									</div> -->
+									<!-- ===================================== -->
+									<!-- ===================================== -->
+									<!-- <div class="col-12 col-md-6">
+										<div class="row mb-2">
+											<div class="col-lg-6"><h6>Total TBLC Fee Rs.</h6></div>
+											<hr>
+										</div>
+
+										<div class="item-header">
+										    <div>#</div>
+										    <div>Name</div>
+										    <div>Qty</div>
+										    <div>Price</div>
+										    <div>Total</div>
+										    <div>Select</div>
+										</div>
+
+										<div id="tblcContainer">
+										    <?php 
+										    if(isset($tblc_list) && !empty($tblc_list)) {
+										        $i = 1;
+										        foreach ($tblc_list as $row) {
+										            $total = $row['qty'] * $row['price'];
+										            $getTblcChecked = 'checked';
+										            if( $i > 6 ) {
+										            	$getTblcChecked = '';
+										            }
+										            ?>
+
+										            <div class="item-row  item-row-tblc">
+										                <div><?= $i ?></div>
+
+										                <div><?= $row['item_name'] ?></div>
+									                 	<input type="hidden" class="item_id" value="<?= $row['id'] ?>">
+										                <div>
+										                    <input type="number" class="item_qty" value="<?= $row['qty'] ?>" min="1">
+										                </div>
+
+										                <div>
+										                    <input type="number" class="item_price" value="<?= $row['price'] ?>" min="1">
+										                </div>
+
+										                <div>
+										                    <input type="text" class="item_total" value="<?= $total ?>" readonly>
+										                </div>
+
+										                <div style="text-align:center;">
+										                    <input type="checkbox" class="item_check" <?= $getTblcChecked ?>>
+										                </div>
+										            </div>
+
+										            <?php
+										            $i++;
+										        }
+										    }
+										    ?>
+										</div>
+
+										<div class="row mt-3">
+										    <div class="col-lg-9 text-end">
+										        <strong>TBLC Total Fee:</strong>
+										    </div>
+										    <div class="col-lg-3">
+										        <strong id="grandTotal2">₹0</strong>
+										    </div>
+										</div>
+									</div> -->
+									<!-- ===================================== -->
+								</div>
+
+								<?php if($form_details['stoppage'] > 0) { ?>
+									<div class="row mb-2">
+										<div class="col-lg-6">
+											<i class="ph-file-text me-2"></i> Bus Services (<?= !empty($form_details['stoppage']) ? stoppage_name_by_id($form_details['stoppage']) : ''; ?>)
+										</div>
+										<div class="col-lg-3">
+											<input type="number" class="form-control" name="stoppage_fee" id="stoppage_fee" value="<?= $stoppage_fare ?>" readonly />
+										</div>
+										<div class="col-lg-3" id="tuition_fee_level"></div>
+									</div>
+								<?php } ?>
+
+								<div class="row mb-2">
+									<div class="col-lg-6">
+										<i class="ph-file-text me-2"></i> Consideration Remarks
+									</div>
+									<div class="col-lg-6">
+										<textarea  name="remarks" id="remarks" rows="3" cols="3" class="form-control" placeholder="Enter your consideration remarks"></textarea>
+									</div>
+								</div>
+
+								<div class="row mb-2">
+									<div class="col-lg-6"><strong>Total Amount: <span id="grandTotalAmount"></span></strong></div>
+									
+									<?php if( $ad_payment_status != 1 ) { ?>
+										<div class="col-lg-3">
+											<button type="button" id="re_admission_fee_payment_btn" class="btn btn-warning pull-right"><i class="white ace-icon fa fa-credit-card "></i>Make Payment</button>
+										</div>
+									<?php } ?>
+									<div class="col-lg-3">
+										<input type="hidden" class="form-control" name="payment_amount" id="payment_amount" value="" />
+										<input type="hidden" class="form-control" name="form_no" value="" />
+										<input type="hidden" class="form-control" name="student_id" value="<?php echo $form_details['student_id']; ?>" />
+										<input type="hidden" class="form-control" name="first_name" value="<?php echo $form_details['first_name']; ?>" />
+									</div>
+								</div>
+
+								<input type="hidden" name="payment_cheque_number" id="payment_cheque_number" value="" />
+								<input type="hidden" name="payment_pos_bank_name" id="payment_pos_bank_name" value="" />
+								<input type="hidden" name="payment_pos_reference_number" id="payment_pos_reference_number" value="" />
+							</div>
+						</div>
+	                </form>
+               </div>
+	        </div>
+       	<?php } else { ?>
+       		<div class="card-body">
+	            <p class="text-center mb-4">Admission Details Not Found</p>
+	       	</div>
+       	<?php } ?>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myReAdmissionPaymentModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Collect Re Admission Fees</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Tabs Navigation -->
+                <ul class="nav nav-tabs" id="modalTabs" role="tablist">
+                	<?php if (!session()->get('student_logged_in')) { ?>
+	                    <li class="nav-item" role="presentation">
+	                        <button class="nav-link active" id="details-tab" data-bs-toggle="tab" data-bs-target="#details" type="button" role="tab" aria-controls="details" aria-selected="true">
+	                            Cash
+	                        </button>
+	                    </li>
+	                    <li class="nav-item" role="presentation">
+	                        <button class="nav-link" id="specs-tab" data-bs-toggle="tab" data-bs-target="#specs" type="button" role="tab" aria-controls="specs" aria-selected="false">
+	                            Cheque / QR/UPI
+	                        </button>
+	                    </li>
+	                    <li class="nav-item" role="presentation">
+	                        <button class="nav-link" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews" type="button" role="tab" aria-controls="reviews" aria-selected="false">
+	                            POS / CARD
+	                        </button>
+	                    </li>
+	                <?php } ?>
+
+                    <?php if(get_config_value_by_key('online_payment_mode') != 0) { ?>
+	                    <li class="nav-item" role="presentation">
+	                        <button class="nav-link" id="online-tab" data-bs-toggle="tab" data-bs-target="#onlinePayment" type="button" role="tab" aria-controls="online" aria-selected="false">
+	                            Online Payment
+	                        </button>
+	                    </li>
+	                <?php } ?>
+                </ul>
+                
+                <!-- Tab Content -->
+                <div class="tab-content modal-tab-content" id="modalTabsContent">
+                	<?php if (!session()->get('student_logged_in')) { ?>
+	                    <div class="tab-pane fade show active" id="details" role="tabpanel" aria-labelledby="details-tab">
+	                        <h4></h4>
+	                        <form class="form-horizontal" role="form" id="cpay" autocomplete="off">
+								<p class="cpay_msg"></p>
+								
+								<div class="row mb-3">
+									<label class="col-md-2 col-form-label">Cash Amount</label>
+									<div class="col-md-4">
+										<input type="text" class="form-control payment_amount_m" placeholder="Cash Amount" value="" disabled />
+										<input type="hidden" name="payment_amount" value="" />
+										<!-- <div class="form-text text-muted">Here goes your name</div> -->
+									</div>
+								</div>
+								<div class="row mb-3">
+									<label class="col-md-2 col-form-label">Payee Name</label>
+									<div class="col-md-4">
+										<input type="text" class="form-control" name="payee_name" value="" placeholder="Payee Name" readonly />
+									</div>
+								</div>
+
+								<div class="form-group">
+									<div class="col-sm-offset-2 col-sm-10">
+										<button type="button" class="btn btn-primary" id="sub_cpay">Save</button>
+									</div>
+								</div>
+							</form>
+	                    </div>
+
+	                    <div class="tab-pane fade" id="specs" role="tabpanel" aria-labelledby="specs-tab">
+	                        <h4></h4>
+	                        <form class="form-horizontal" role="form" id="chqpay" autocomplete="off">
+								<p class="chqpay_msg"></p>
+								<div class="row mb-3">
+									<label class="col-md-2 col-form-label">Cheque Amount</label>
+									<div class="col-md-4">
+										<input type="text" class="form-control payment_amount_m" placeholder="Cheque Amount" value="" disabled />
+										<input type="hidden" name="payment_amount" value="" />
+									</div>
+								</div>
+								<div class="row mb-3">
+									<label class="col-md-2 col-form-label">Payee Name</label>
+									<div class="col-md-4">
+										<input type="text" class="form-control" name="payee_name" value="" placeholder="Payee Name" readonly />
+									</div>
+								</div>
+								<div class="row mb-3">
+									<label class="col-md-2 col-form-label">Cheque No</label>
+									<div class="col-md-4">
+										<input type="text" name="cheque_number" id="cheque_number" class="form-control" placeholder="Cheque No" value="" />
+									</div>
+								</div>
+
+								<button type="button" class="btn btn-primary" id="sub_chqpay">Save</button>
+							</form>
+	                    </div>
+
+	                    <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+	                        <h4></h4>
+	                        <form class="form-horizontal" role="form" id="pospay" autocomplete="off">
+								<p class="pospay_msg"></p>
+								<div class="row mb-3">
+									<label class="col-md-2 col-form-label">POS Bank Name</label>
+									<div class="col-md-4">
+										<select class="form-select" name="pos_bank_name" id="pos_bank_name">										
+											<option value="AXIS">AXIS</option>
+											<option value="BOB">BOB</option>
+											<option value="SBI">SBI</option>
+											<option value="HDFC" selected>HDFC</option>
+										</select>	
+									</div>
+								</div>
+								<div class="row mb-3">
+									<label class="col-md-2 col-form-label">POS Amount</label>
+									<div class="col-md-4">
+										<input type="text" class="form-control payment_amount_m" placeholder="POS Amount" value="" disabled />
+										<input type="hidden" name="payment_amount" value="" />
+										<!-- <div class="form-text text-muted">Here goes your name</div> -->
+									</div>
+								</div>
+
+								<div class="row mb-3">
+									<label class="col-md-2 col-form-label">Reference Number</label>
+									<div class="col-md-4">
+										<input type="text" name="pos_reference_number" id="pos_reference_number" class="form-control" placeholder="POS Referance Number" value="" />
+									</div>
+								</div>
+
+								<div class="row mb-3">
+									<label class="col-md-2 col-form-label">Payee Name</label>
+									<div class="col-md-4">
+										<input type="text" class="form-control" name="payee_name" value="" placeholder="Payee Name" readonly />
+									</div>
+								</div>
+
+								<button type="button" class="btn btn-primary" id="sub_pospay">Save</button>
+							</form>
+	                    </div>
+                   <?php } ?>
+
+                    <div class="tab-pane fade" id="onlinePayment" role="tabpanel" aria-labelledby="online-tab">
+						<form class="form-horizontal" role="form" id="onlinepay" autocomplete="off" method="post" action="<?= base_url('admin/student/ccavenue-request-readmission') ?>">
+							<p class="cpay_msg"></p>
+							<div class="form-group row mb-2">
+								<label  class="col-sm-4 control-label" for=""> Tution Fine Amount </label>
+								<div class="col-sm-8">
+									<input type="hidden" class="form-control" name="fine" value="<?= $fine; ?>"  />
+									<input type="text" class="form-control fine_m" value="<?= $fine; ?>" disabled />
+								</div>
+							</div>
+							<div class="form-group row mb-2">
+								<label  class="col-sm-4 control-label" for=""> Bus Fine Amount </label>
+								<div class="col-sm-8">
+									<input type="hidden" class="form-control" name="bus_fee_fine" value="<?= $bus_fee_fine; ?>" />
+									<input type="text" class="form-control bus_fee_fine_m" value="<?= $bus_fee_fine; ?>" disabled />
+								</div>
+							</div>
+							<div class="form-group row mb-2">
+								<label  class="col-sm-4 control-label" for=""> Advanced Amount </label>
+								<div class="col-sm-8">
+									<input type="text" class="form-control adv_amount"  placeholder="Advance Amount" value="0" disabled />
+									<input type="hidden" class="adv_amount" name="adv_amount" value="0"/>
+								</div>
+							</div>
+							<div class="form-group row mb-2">
+								<label  class="col-sm-4 control-label" for=""> Due Amount </label>
+								<div class="col-sm-8">
+									<input type="text" class="form-control due_amount"  placeholder="Due Amount" value="0" disabled />
+								</div>
+							</div>
+							<div class="form-group row mb-2">
+								<label  class="col-sm-4 control-label" for=""> Cash Amount </label>
+								<div class="col-sm-8">
+									<input type="hidden" class="form-control" name="payment_amount"  value="" />
+									<input type="text" class="form-control payment_amount_m"  placeholder="Cash Amount" value="" disabled />
+								</div>
+							</div>
+							<div class="form-group row mb-2">
+								<label  class="col-sm-4 control-label" for=""> Payee Name </label>
+								<div class="col-sm-8">
+									<input data-validation="required" data-validation-error-msg-required="Enter payee name" type="text" class="form-control" name="payee_name" placeholder="Payee Name" value="<?= $form_details['first_name'] ?? '' ?>" />
+								</div>
+							</div>
+							<input type="hidden" class="ad_payment_mode" name="ad_payment_mode" value="CCAvenue"/>
+							<input type="hidden" class="ad_payment_status" name="ad_payment_status" value="1"/>
+							<input type="hidden" class="bus_payment_status" name="bus_payment_status" value="1"/>
+							<input type="hidden" class="t_user_id" name="t_user_id" value="<?= session()->get('user_id') ?>"/>
+							<input type="hidden" class="bus_payment_date" name="bus_payment_date" value="<?= date('Y-m-d') ?>"/>
+							<input type="hidden" class="added_by" name="added_by" value="<?= session()->get('f_name')?>"/>
+							<input type="hidden" class="sCode" name="sCode" value="<?php echo $code; ?>"/>
+							<input type="hidden" class="selId" name="selId" id="selId" value=""/>
+							<input type="hidden" class="value" name="value" id="value" value=""/>
+							<input type="hidden" class="paymentData" name="paymentData" id="paymentData" value=""/>
+
+							<div class="form-group row mb-2">
+								<p style="color:red;">
+									<b>*Important Note : Additional Bank Charge may be applicable while Pay through CREDIT CARD, NET BANKING &amp; WALLET.</b> <br>
+									<b class="red">**Do not close the browser or click back button after clicking "Proceed to pay".</b>
+								</p>
+							</div>
+
+							<div class="form-group row mb-2">
+								<div class="col-sm-offset-2 col-sm-10">
+									<button type="button" class="btn btn-primary" id="sub_onlinepay"> Proceed to pay </button>
+								</div>
+							</div>
+						</form>
+					</div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+	$(document).ready(function() {
+		let baseUrl = '<?=base_url()?>';
+
+		$('#stoppage').change(function(){
+			var stoppage_id = $(this).find(':selected').val();
+			$('#bus_id').empty();
+			$.ajax({
+				type: "POST",
+				url: "<?php echo base_url('admin/bus/get-bus'); ?>", 
+				data:{stoppage:stoppage_id},
+				dataType:"json",//return type expected as json
+				success: function(stoppage){
+				   $.each(stoppage,function(key,val){
+						var opt = $('<option/>'); 
+						opt.val(key);
+						opt.text(val);
+						$('#bus_id').append(opt);
+				   });
+				},
+			});
+		});
+
+		$('#stoppageFormSubmit').click(function () {				
+			var stop = $('#stoppage').val();
+			var bus = $('#bus_id').val();
+			if(stop>0 && bus>0){
+				Swal.fire({
+				    title: "Are you sure?",
+				    text: "Do you want to assign bus?",
+				    icon: "warning",
+				    showCancelButton: true,
+				    confirmButtonText: "Yes, Assign",
+				    cancelButtonText: "No, Cancel"
+				}).then((result) => {
+				    if (result.isConfirmed) {
+				        // YES clicked
+				        console.log("Bus assigned");
+
+				        var student_id = '<?= ($form_details['student_id']) ?? '' ?>';
+						var stu_previous_stoppage = '<?= ($form_details['stoppage']) ?? '' ?>';
+						$.ajax({
+							url:'<?= base_url() ?>admin/student/assign-bus-to-student',
+							method: 'post',					
+							data: {
+								stoppage : stop, 
+								bus_id : bus, 
+								form_no : '', 
+								student_id : student_id,
+								stuPreviousStoppage : stu_previous_stoppage
+							},
+							//data: formdata,
+							success: function(result){
+								console.log(result);
+								if(result > 0){							
+									$('.msg').html('<div class="alert alert-block alert-success"><button type="button" class="btn-close" data-bs-dismiss="alert"></button><p><strong><i class="bi bi-check"></i>Well done!</strong>Student Details update successful</p></div>');
+									setTimeout(function(){ location.reload(); }, 1500);
+								} else {								
+									$('.msg').html('<div class="alert bg-danger text-white alert-dismissible fade show"><button type="button" class="btn-close" data-bs-dismiss="alert"></button><strong><i class="ace-icon fa fa-times"></i> Failed! </strong>Their is an error to assign bus<br></div>');
+								}  
+							}
+						}) 
+				    } else {
+				        // NO clicked
+				        console.log("Cancelled");
+				        e.preventDefault();
+				    }
+				});
+			} else {
+				alert('Please Select Stoppage & Bus');
+			}			
+		});
+
+		$('#stoppageFormCancelSubmit').click(function () {				
+			var stop = $('#stoppage').val();
+			var bus = $('#bus_id').val();
+			if(stop>0 && bus>0){
+				Swal.fire({
+				    title: "Are you sure?",
+				    text: "Do you want to unassign bus?",
+				    icon: "warning",
+				    showCancelButton: true,
+				    confirmButtonText: "Yes, Unassign",
+				    cancelButtonText: "No, Cancel"
+				}).then((result) => {
+				    if (result.isConfirmed) {
+				        // YES clicked
+				        console.log("Bus unassign");
+
+				        var student_id = '<?= ($form_details['student_id']) ?? '' ?>';
+						var stu_previous_stoppage = '<?= ($form_details['stoppage']) ?? '' ?>';
+						$.ajax({
+							url:'<?= base_url() ?>admin/student/unassign-bus-to-student',
+							method: 'post',					
+							data: {
+								stoppage : stop, 
+								bus_id : bus, 
+								form_no : '', 
+								student_id : student_id,
+								stuPreviousStoppage : stu_previous_stoppage
+							},
+							//data: formdata,
+							success: function(result){
+								console.log(result)
+								if (result == -1) {
+								    $('.msg').html('<div class="mt-2 alert alert-danger">Invalid Student ID Details</div>');
+								}
+								else if (result == -2) {
+								    $('.msg').html('<div class="mt-2 alert alert-danger">Invalid Student Code</div>');
+								}
+								else if(result > 0){							
+									$('.msg').html('<div class="alert alert-block alert-success"><button data-dismiss="alert" class="close" type="button"><i class="ace-icon fa fa-times"></i></button><p><strong><i class="bi bi-check"></i>Well done!</strong>Bus has been unassigned from the student</p></div>');
+									setTimeout(function(){ location.reload(); }, 1500);
+								} else {								
+									$('.msg').html('<div class="alert alert-danger"><button type="button" class="close" data-dismiss="alert"><i class="bi bi-clipboard-x-fill"></i></button><strong><i class="ace-icon fa fa-times"></i> Failed! </strong>Their is an error for this transaction<br></div>');
+								} 
+							}
+						}) 
+				    } else {
+				        // NO clicked
+				        console.log("Cancelled");
+				        e.preventDefault();
+				    }
+				});
+			} else {
+				alert('Please Select Stoppage & Bus');
+			}			
+		});
+
+		$('#submit_section').click(function () {
+			var section_id = $('#section_id').val();
+			
+			if(section_id > 0){
+				
+				var code = '<?= ($form_details['form_no']) ?? '' ?>';
+				var class_id = '<?= ($form_details['class_id']) ?? '' ?>';
+			
+				$.ajax({
+					url:'<?= base_url()?>admin/student/assign-section-to-student',
+					method: 'post',					
+					data: {
+						class_id : class_id, 
+						section_id : section_id, 
+						form_no : code
+					},
+					success: function(result){
+						if(result > 0) {
+							Swal.fire({
+							    icon: 'success',
+							    title: 'Success!',
+							    text: 'Section Assigned',
+							    showConfirmButton: false,
+							    timer: 1500
+							}).then(() => {
+							    location.reload();
+							});
+						} else {
+							Swal.fire({
+							    icon: 'error',
+							    title: 'Failed!',
+							    text: 'Student limit exceeded',
+							    confirmButtonText: 'OK'
+							});
+						}  
+					}
+				}) 
+				
+			} else {
+				Swal.fire({
+				    icon: 'warning',
+				    title: 'Required!',
+				    text: 'Please select section',
+				    confirmButtonText: 'OK'
+				});
+			}			
+		});
+
+		/**
+	     * Admission All Fee Price Calculation
+	     * */ 
+	    function updateFeeValue(inputId, labelId) {
+	        let value = parseFloat(document.getElementById(inputId).value) || 0;
+	        document.getElementById(labelId).innerHTML = "₹" + value;
+	        calculateFeesGrandTotal();
+	        calculateFinalAdmissionTotal()
+	    }
+
+		function calculateFeesGrandTotal() {
+		    let total = 0;
+
+		    document.querySelectorAll('.fees_area_js').forEach(function(input) {
+		        total += parseFloat(input.value) || 0;
+		    });
+
+		    let grandTotalEl = document.getElementById("grand_total_amount");
+		    if (grandTotalEl) {
+		        grandTotalEl.innerHTML = "₹" + total;
+		    }
+
+		    return total;
+		}
+
+	    // Attach listeners to all inputs
+	    document.querySelectorAll('.fees_area_js').forEach(function(input) {
+	        input.addEventListener('input', function () {
+	            let id = this.id;
+	            let labelId = id + "_level";
+	            updateFeeValue(id, labelId);
+	        });
+	    });
+
+	    // Initial total calculation
+	    calculateFeesGrandTotal();
+	    /**
+	     * End Admission All Fee Price Calculation
+	     * */ 
+
+	    /**
+	     * Stationary Price Calculation
+	     * */ 
+	    function calculateStationaryRowTotal(row) {
+	        let qty = parseFloat(row.querySelector('.item_qty').value) || 0;
+	        let price = parseFloat(row.querySelector('.item_price').value) || 0;
+	        row.querySelector('.item_total').value = (qty * price);
+	        calculateStationaryGrandTotal();
+	        calculateFinalAdmissionTotal()
+	    }
+
+	    function calculateStationaryGrandTotal() {
+	        let rows = document.querySelectorAll('.item-row-stationary');
+	        let total = 0;
+
+	        rows.forEach(row => {
+	            let checkbox = row.querySelector('.item_check');
+	            if (checkbox.checked) {
+	                total += parseFloat(row.querySelector('.item_total').value) || 0;
+	            }
+	        });
+
+	        document.getElementById('grandTotal').innerText = "₹" + total;
+	        
+	        return total;
+	    }
+
+	    document.getElementById('itemContainer').addEventListener('input', function(e) {
+	        if (e.target.classList.contains('item_qty') || e.target.classList.contains('item_price')) {
+	            calculateStationaryRowTotal(e.target.closest('.item-row-stationary'));
+	        }
+	    });
+
+	    document.getElementById('itemContainer').addEventListener('change', function(e) {
+	        if (e.target.classList.contains('item_check')) {
+	            calculateStationaryGrandTotal();
+	            calculateFinalAdmissionTotal();
+	        }
+	    });
+
+	    // Initial calculation
+	    calculateStationaryGrandTotal();
+	    /**
+	     * End Stationary Price Calculation
+	     * */ 
+
+		function calculateFinalAdmissionTotal() {
+			let stoppageFee = $("#stoppage_fee").length ? (parseInt($("#stoppage_fee").val()) || 0) : 0;
+		    let total = stoppageFee 
+		    		  + calculateFeesGrandTotal()
+		              + calculateStationaryGrandTotal();
+
+		    document.getElementById("grandTotalAmount").innerHTML = "₹" + total.toLocaleString('en-IN');
+		    $("#payment_amount").val(total)
+
+		    return total;
+		}
+
+		calculateFinalAdmissionTotal()
+
+		function getAdmissionPaymentFormData()
+		{
+			let formData = {};
+
+		    // 1️⃣ Collect basic inputs
+		    $('#reAdmissionPaymentArea').find('input, textarea, select').each(function () {
+		        let name = $(this).attr('name');
+		        let value = $(this).val();
+
+		        if (name) {
+		            formData[name] = value;
+		        }
+		    });
+
+		    // 2️⃣ Collect Stationary Items (ONLY CHECKED)
+		    formData['stationary_items'] = [];
+		    $('#itemContainer .item-row-stationary').each(function () {
+
+		        let isChecked = $(this).find('.item_check').is(':checked');
+
+		        if (isChecked) {  // Only add checked rows
+		            formData['stationary_items'].push({
+		                item_name: $(this).find('.item_name_text').text().trim(),
+		                item_id: $(this).find('.item_id').val(),
+		                qty: $(this).find('.item_qty').val(),
+		                price: $(this).find('.item_price').val(),
+		                total: $(this).find('.item_total').val()
+		            });
+		        }
+
+		    });
+
+		    // 3️⃣ Collect TBLC Items (ONLY CHECKED)
+		    formData['tblc_items'] = [];
+		    $('#tblcContainer .item-row-tblc').each(function () {
+
+		        let isChecked = $(this).find('.item_check').is(':checked');
+
+		        if (isChecked) { // Only add checked rows
+		            formData['tblc_items'].push({
+		                item_name: $(this).find('div:nth-child(2)').text().trim(),
+		                item_id: $(this).find('.item_id').val(),
+		                qty: $(this).find('.item_qty').val(),
+		                price: $(this).find('.item_price').val(),
+		                total: $(this).find('.item_total').val()
+		            });
+		        }
+
+		    });
+
+		    // 4️⃣ Grand Totals
+		    formData['grand_total_fees'] = $('#grand_total_amount').text().replace('₹', '').trim();
+		    formData['stationary_total'] = $('#grandTotal').text().replace('₹', '').trim();
+		    formData['tblc_total'] = $('#grandTotal2').text().replace('₹', '').trim();
+		    let fees_id = '<?= $form_details['fees_id'] ?? ''; ?>'
+		    formData['fees_id'] = fees_id;
+		    let class_id = '<?= $form_details['class_id'] ?? ''; ?>'
+		    formData['class_id'] = class_id;
+		    let student_code = '<?= $form_details['student_code'] ?? ''; ?>'
+		    formData['student_code'] = student_code;
+
+
+		    return formData;
+		}
+
+		$("#re_admission_fee_payment_btn").click(function(){
+			$('#myReAdmissionPaymentModal').modal('show');
+
+		    let formData = getAdmissionPaymentFormData();
+		    console.log("FORM DATA =====>", formData);
+
+		    let paymentAmount = formData.payment_amount || 0;
+		    let payeeName = formData.first_name || '';
+
+		    $('input[name="payment_amount"]').val(paymentAmount);
+		    $('input[name="payee_name"]').val(payeeName);
+		    $('.payment_amount_m').val(paymentAmount);
+		});
+
+		/**
+		 * =========================
+		 * Payment Area
+		 * =========================
+		 * */ 
+
+		// Cash Payment
+		$('#sub_cpay').click(function (e) {
+			admissionPayment('cash')
+		})
+
+		// Cheque Payment
+		$('#sub_chqpay').click(function (e) {
+			admissionPayment('cheque')
+		})
+
+		// POS Payment
+		$('#sub_pospay').click(function (e) {
+			admissionPayment('pos')
+		})
+
+		// Online Payment
+		$('#sub_onlinepay').click(function (e) {
+			e.preventDefault();
+			console.log( "onlinepayDataString" )
+			var onlinepayDataString = $('#onlinepay').serializeArray();
+			console.log( onlinepayDataString )
+
+			let formData = getAdmissionPaymentFormData();
+			console.log(typeof formData);
+		    console.log("FORM DATA =====>", formData);
+		    console.log("formData.fees_id =====>", formData.fees_id);
+		    let chkFeesMonthIdArray = [formData.fees_id];
+
+		    Swal.fire({
+	            title: "Are you sure?",
+	            text: "Do you want to confirm this payment?",
+	            icon: "question",
+	            showCancelButton: true,
+	            confirmButtonColor: "#3085d6",
+	            cancelButtonColor: "#d33",
+	            confirmButtonText: "Yes, confirm",
+	            cancelButtonText: "Cancel"
+	        }).then((result) => {
+	            if (result.isConfirmed) {
+            	 	// Put data into hidden form
+		            $('#selId').val(JSON.stringify(chkFeesMonthIdArray));
+		            $('#value').val(JSON.stringify(onlinepayDataString));
+		            $('#paymentData').val(JSON.stringify(formData));
+
+	            	// Submit normal form (FULL PAGE)
+            		$('#onlinepay').submit();
+	            }
+	        });
+
+			/*fine
+			bus_fee_fine
+			adv_amount
+			payment_amount
+			payee_name
+			ad_payment_mode
+			ad_payment_status
+			bus_payment_status
+			t_user_id
+			bus_payment_date
+			added_by
+			sCode
+			selId
+			value*/
+		})
+
+
+		function admissionPayment(paymentMethod='')
+		{
+			if (paymentMethod === '') {
+		        paymentMethod = 'cash';
+		    }
+
+			let getChequeNumber = $("#cheque_number").val()
+			let getBankName = $("#pos_bank_name").val()
+			let getPosReferenceNumber = $("#pos_reference_number").val()
+
+			$("#payment_cheque_number").val(getChequeNumber);
+			$("#payment_pos_bank_name").val(getBankName);
+			$("#payment_pos_reference_number").val(getPosReferenceNumber);
+
+
+			Swal.fire({
+			    title: "Confirm?",
+			    text: "",
+			    icon: "warning",
+			    showCancelButton: true,
+			    confirmButtonText: "Yes",
+			    cancelButtonText: "No, Cancel"
+			}).then((result) => {
+			    if (result.isConfirmed) {
+			    	$('#myReAdmissionPaymentModal').modal('hide');
+
+			    	let formData = getAdmissionPaymentFormData();
+			    	formData['ad_payment_mode'] = paymentMethod;
+			    	// console.log(formData)
+
+			    	if( paymentMethod == "cheque" ) {
+		    		 	if (getChequeNumber === '') {
+					        Swal.fire({
+					            icon: 'error',
+					            title: 'Missing Cheque Number',
+					            text: 'Please enter the Cheque Number before submitting.',
+					        });
+					        return;
+					    }
+			    	} else if( paymentMethod == "pos" ) {
+			    		if (getBankName === '') {
+					        Swal.fire({
+					            icon: 'error',
+					            title: 'Bank Name Required',
+					            text: 'Please select a POS bank name!',
+					        });
+					        return;
+					    }
+
+					    if (getPosReferenceNumber === '') {
+					        Swal.fire({
+					            icon: 'error',
+					            title: 'Reference Number Required',
+					            text: 'Please enter the POS reference number!',
+					        });
+					        return;
+					    }
+			    	}
+
+			    	$.ajax({
+						url:'<?=base_url()?>admin/student/add-re-admission-payment',
+						method: 'post',					
+						data: formData,	
+						dataType: 'json',
+						success: function(response){
+							if (response.success) {	
+								$('#myReAdmissionPaymentModal').modal('hide')
+
+								Swal.fire({
+								    icon: 'success',
+								    title: 'Success!',
+								    text: 'Your Transaction is Successfull.',
+								    confirmButtonText: 'OK'
+								}).then(() => {
+								    window.location.href = baseUrl + "admin/student/student-list/" + response.student_code;
+								});								
+							} else {
+								Swal.fire({
+								    icon: 'error',
+								    title: 'Error!',
+								    text: 'Failed! Their is an error for this transaction'
+								});
+							}
+						}
+					})
+			    } else {				
+					e.preventDefault();
+				}
+			});
+		}
+	});
+</script>
